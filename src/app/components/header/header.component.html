@@ -1,1 +1,26 @@
-<p>header works!</p>
+<div class="header-container">
+    <header class="header contain">
+        <a href="/"> <img class="header-logo" src="../../assets/bre-logo.svg" alt="Dee Creations logo"></a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+
+        <!-- <div class="nav-items"> -->
+        <ul class="menu">
+            <li [class.active]="isActive('/')"><a href="/">Home</a></li>
+            <!-- <li [class.active]="isActive('/services')"><a href="/services">Services</a></li>
+                <li [class.active]="isActive('/myworks')"><a href="/myworks">Work</a></li> -->
+            <li [class.active]="isActive('/about')"><a href="/about">About</a></li>
+            <li [class.active]="isActive('/contact')"><a href="/contact">Contact Us</a></li>
+            <!-- <div class="menu-bottom-elements">
+                <img src="../../../assets/global/menu-pattern.svg" alt="">
+                <div class="social"></div>
+            </div> -->
+        </ul>
+        <!-- </div> -->
+        <div class="header-line"></div>
+
+
+
+    </header>
+
+</div>

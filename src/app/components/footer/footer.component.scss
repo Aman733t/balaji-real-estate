@@ -1,0 +1,239 @@
+.footer {
+    width: 100%;
+    position: relative;
+    height: 45vh;
+
+}
+
+.f-pattern {
+    position: absolute;
+    width: 100%;
+}
+
+.f-pattern img{
+    width: 100%;
+    object-fit: cover;
+    height: 50vh;
+}
+.f-content {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    padding: 96px 0px 0px 0px;
+}
+
+.f-content > img{
+    padding: 0px 0px 48px 0px;
+}
+
+.f-content .brief {
+    text-align: center;
+    padding: 0px 0px 32px 0px;
+}
+
+.f-content .copyright {
+    text-align: center;
+    padding: 40px 0px 64px 0px;
+    font-size: 16px;
+}
+
+.pages {
+    color: var(--white-100);
+    margin: 16px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+}
+
+.pages span {
+    margin: 16px;
+    color: white;
+}
+
+.pages a {
+    padding: 16px 20px;
+    color: white;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.social span {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    background: transparent;
+    border: 1px solid var(--black-50);
+    margin: 20px;
+    cursor: pointer;
+
+}
+
+.social img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social span:hover {
+    background: var(--primary-gradient);
+
+}
+
+
+
+@media screen and (max-width: 1400px) {
+.pages{
+    margin: 16px 0px;
+}
+
+.f-content{
+    width: 80%;
+}
+  }
+
+
+@media screen and (max-width: 800px) {
+    .pages span{
+        width: 100%;
+    }
+  }
+
+
+@media screen and (max-width: 500px) {
+.social span{
+    margin: 12px;
+}
+.pages span{
+    margin: 12px;
+}
+
+.pages{
+    margin: 24px 0px;
+}
+
+.f-content{
+  width: 100%;
+  padding: 80px 24px 0px 24px;
+}
+  }
+
+
+  .whatsapp-connect{
+    position: fixed;
+    z-index: 99;
+    bottom: 48px;
+    right: 48px;
+    cursor: pointer;
+    
+  }
+
+  .container{
+    width: 50px;
+height: 50px;
+border-radius: 25px;
+background: var(--primary-gradient);
+box-shadow: -1px 4px 8px 1px rgba(0, 0, 0, 0.30);
+transition: all 0.15s cubic-bezier(.42, 0, .58, 1);
+
+  }
+
+  .text{
+    display: block;
+    visibility: hidden;
+    width: 245px;
+    float: right;
+    opacity: 0;
+
+  }
+
+  .whatsapp-connect img{
+    position: absolute;
+    top: 11px;
+    right: 10px;
+  }
+
+  .container p{
+    padding: 10px 0px 0px 16px;
+  }
+
+  .container:hover{
+    width: 245px;
+    height: 50px;
+  }
+
+  .container:hover .text{
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.4s cubic-bezier(.42, 0, .58, 1);
+
+  }
+
+  @media screen and (max-width: 800px) {
+    .whatsapp-connect{
+        bottom: 32px;
+        right: 32px;
+        
+      }}
+  @media screen and (max-width: 500px) {
+    .whatsapp-connect{
+        bottom: 16px;
+        right: 16px;
+        
+      }
+
+
+  }
+  //animatrion
+
+//   a.animated-button.white-outlined {
+//     color: #fff;
+//     font-size: 17px;
+//     text-transform: uppercase;
+//     cursor: pointer;
+//     padding-top: 16px;
+//     display: block;
+//     position: relative;
+//     border: 2px solid white;
+//     background-color: rgba(0, 0, 0, 0.253);
+//     transition: all 0.5s cubic-bezier(.42, 0, .58, 1);
+//     height: 60px;
+//     border-radius: 0px;
+//     overflow: hidden;
+//     text-align: center;
+// }
+
+// a.animated-button.white-outlined:hover {
+//     /* color: #000 !important; */
+//     background-color: transparent;
+//     text-shadow: nthree;
+// }
+
+// a.animated-button.white-outlined:hover:before {
+//     left: 0%;
+//     right: auto;
+//     width: 100%;
+// }
+
+// a.animated-button.white-outlined:before {
+//     display: block;
+//     position: absolute;
+//     top: 0px;
+//     right: 0px;
+//     height: 60px;
+//     width: 0px;
+//     z-index: -1;
+//     content: '';
+//     color: #000 !important;
+//     background: var(--primary-gradient);
+//     transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+// }
