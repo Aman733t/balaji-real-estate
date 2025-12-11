@@ -3,7 +3,7 @@
     height: 120px;
     width: 100%;
     position: fixed;
-    background: var(--black-90);
+    background: #181818d4;
     box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.06);
 
 }
@@ -82,7 +82,7 @@ ul li a::after {
     height: 3px;
     top: 97%;
     left: 0;
-    background: #FF2E50;
+    background: var(--primary-red);
     transition: transform 0.5s;
     transform: scaleX(0);
     transform-origin: right;
