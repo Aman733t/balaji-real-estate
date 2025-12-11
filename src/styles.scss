@@ -9,25 +9,88 @@
     text-decoration: none;
 }
 
-    ol, ul {
-        list-style: none outside none;}
+ol,
+ul {
+    list-style: none outside none;
+}
 
 
-    html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
-        background: none repeat scroll 0 0 transparent;
-        border: 0 none;
-        font-size: 100%;
-        margin: 0;
-        outline: 0 none;
-        padding: 0;
-        vertical-align: baseline;
-    }
-    
-.contain{
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    font-size: 100%;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.contain {
     padding: 0px 150px;
 }
 
-body{
+body {
     background-color: var(--black-90);
 }
 
@@ -35,7 +98,7 @@ body{
 
 @font-face {
     font-family: 'Poppins-Black';
-    src : url('./assets/fonts/Poppins/Poppins-Black.ttf') format('truetype');
+    src: url('./assets/fonts/Poppins/Poppins-Black.ttf') format('truetype');
 }
 
 @font-face {
@@ -127,7 +190,7 @@ body{
 :root {
     --primary-red: #FF2E50;
     --primary-color: #FF2E50;
-    --primary-blue:#08D8D5;
+    --primary-blue: #08D8D5;
     --primary-gradient: linear-gradient(90deg, #F32799 0%, #FE2D74 50%, #FF2E63 100%);
     --black-100: #070707;
     --black-90: #181818;
@@ -153,7 +216,7 @@ body{
 
 h1,
 h2,
-h3{
+h3 {
     font-family: Poppins-SemiBold;
     color: var(--white-100);
 }
@@ -161,62 +224,64 @@ h3{
 //Typography
 
 
-h1{
-font-size: 85px;
-line-height: 120%;
+h1 {
+    font-size: 85px;
+    line-height: 120%;
 
 }
-h2{
+
+h2 {
     font-size: 60px;
     line-height: 115%;
 }
 
-h3{
+h3 {
     font-size: 30px;
-line-height: 32px;
+    line-height: 32px;
 }
 
-h4{
+h4 {
     font-size: 20px;
     line-height: 32px;
     color: var(--white-100);
 }
 
-h5{
+h5 {
     font-size: 18px;
-line-height: 32px; 
-letter-spacing: 5.4px;
-color: var(--white-100);
-padding-bottom: 16px;
-position: relative;
-text-transform: uppercase;
+    line-height: 32px;
+    letter-spacing: 5.4px;
+    color: var(--white-100);
+    padding-bottom: 16px;
+    position: relative;
+    text-transform: uppercase;
 }
 
 
-p, .pm{
+p,
+.pm {
     color: var(--white-100);
     font-size: 16px;
     line-height: 32px;
     font-family: Poppins-Regular;
 }
 
-.ps{
-font-size: 16px;
-color: var(--white-100);
-font-style: normal;
-line-height: 32px;
-font-family: Poppins-Regular;
+.ps {
+    font-size: 16px;
+    color: var(--white-100);
+    font-style: normal;
+    line-height: 32px;
+    font-family: Poppins-Regular;
 
 }
 
-.gradient-text{
+.gradient-text {
     background-image: var(--primary-gradient);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 h5::after {
-    content:" ";
+    content: " ";
     display: inline-block;
     width: 72px;
     height: 2px;
@@ -227,7 +292,7 @@ h5::after {
 }
 
 .line-before::before {
-    content:" ";
+    content: " ";
     display: inline-block;
     width: 72px;
     height: 2px;
@@ -240,120 +305,124 @@ h5::after {
 .pl {
     font-family: Poppins-Regular;
     font-size: 18px;
-  }
+}
 
-  @media screen and (max-width: 1600px) {
-    h1{
+@media screen and (max-width: 1600px) {
+    h1 {
         font-size: 72px;
         line-height: 120%;
-        
-        }
-        h2{
-            font-size: 56px;
-            line-height: 115%;
-        }
-        
-        h3{
-            font-size: 24px;
+
+    }
+
+    h2 {
+        font-size: 56px;
+        line-height: 115%;
+    }
+
+    h3 {
+        font-size: 24px;
         line-height: 30px;
-        }
-        
-  }
+    }
+
+}
 
 
-  @media screen and (max-width: 1400px) {
-    h1{
+@media screen and (max-width: 1400px) {
+    h1 {
         font-size: 64px;
         line-height: 120%;
-        
-        }
-        h2{
-            font-size: 48px;
-            line-height: 115%;
-        }
-        
-        h3{
-            font-size: 24px;
+
+    }
+
+    h2 {
+        font-size: 48px;
+        line-height: 115%;
+    }
+
+    h3 {
+        font-size: 24px;
         line-height: 30px;
-        }
-        
-        .contain{
-            padding: 0px 104px;
-        }
-  }
+    }
+
+    .contain {
+        padding: 0px 104px;
+    }
+}
 
 
 
-  @media screen and (max-width: 1200px) {
-    h1{
+@media screen and (max-width: 1200px) {
+    h1 {
         font-size: 64px;
         line-height: 120%;
-        
-        }
-        h2{
-            font-size: 40px;
-            line-height: 115%;
-        }
-        
-        h3{
-            font-size: 24px;
+
+    }
+
+    h2 {
+        font-size: 40px;
+        line-height: 115%;
+    }
+
+    h3 {
+        font-size: 24px;
         line-height: 26px;
-        }
+    }
 
-        .contain{
-            padding: 0px 96px;
-        }
-        
-  }
+    .contain {
+        padding: 0px 96px;
+    }
 
-  @media screen and (max-width: 999px) {
-    h1{
+}
+
+@media screen and (max-width: 999px) {
+    h1 {
         font-size: 56px;
         line-height: 120%;
-        
-        }
-        h2{
-            font-size: 40px;
-            line-height: 115%;
-        }
-        
-        h3{
-            font-size: 24px;
+
+    }
+
+    h2 {
+        font-size: 40px;
+        line-height: 115%;
+    }
+
+    h3 {
+        font-size: 24px;
         line-height: 26px;
-        }
+    }
 
-        .contain{
-            padding: 0px 56px;
-        }
-        
-        
-  }
+    .contain {
+        padding: 0px 56px;
+    }
 
-  
-  @media screen and (max-width: 600px) {
 
-        .contain{
-            padding: 0px 24px;
-        }
+}
 
-        h1{
-            font-size: 40px;
-            line-height: 120%;
-            
-            }
 
-            h2{
-                font-size: 32px;
-                line-height: 115%;
-            }
+@media screen and (max-width: 600px) {
 
-                
-        h3{
-            font-size: 22px;
+    .contain {
+        padding: 0px 24px;
+    }
+
+    h1 {
+        font-size: 40px;
+        line-height: 120%;
+
+    }
+
+    h2 {
+        font-size: 32px;
+        line-height: 115%;
+    }
+
+
+    h3 {
+        font-size: 22px;
         line-height: 26px;
-        }
-    
-  }
+    }
+
+}
 
 
 // button
@@ -454,5 +523,3 @@ a.animated-button.gradient-filled:before {
     background: var(--primary-gradient);
     transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
-
-
