@@ -189,6 +189,9 @@ td {
     --primary-red: #F30505;
     --primary-color: #F30505;
     --primary-blue: #08D8D5;
+    --golden-100:#806444;
+    --golden-80:#ffcb91;
+    --golden-60:#fff5e9;
     --primary-gradient: linear-gradient(90deg, #F32799 0%, #FE2D74 50%, #FF2E63 100%);
     --black-100: #070707;
     --black-90: #181818;
@@ -220,7 +223,6 @@ h1,
 h2,
 h3 {
     font-family: Poppins-SemiBold;
-    color: var(--white-100);
 }
 
 //Typography
@@ -245,14 +247,12 @@ h3 {
 h4 {
     font-size: 20px;
     line-height: 32px;
-    color: var(--white-100);
 }
 
 h5 {
     font-size: 18px;
     line-height: 32px;
     letter-spacing: 5.4px;
-    color: var(--white-100);
     padding-bottom: 16px;
     position: relative;
     text-transform: uppercase;
@@ -261,7 +261,6 @@ h5 {
 
 p,
 .pm {
-    color: var(--white-100);
     font-size: 16px;
     line-height: 32px;
     font-family: Poppins-Regular;
@@ -269,7 +268,6 @@ p,
 
 .ps {
     font-size: 16px;
-    color: var(--white-100);
     font-style: normal;
     line-height: 32px;
     font-family: Poppins-Regular;
@@ -287,7 +285,7 @@ h5::after {
     display: inline-block;
     width: 72px;
     height: 2px;
-    background: var(--primary-gradient);
+    background: var(--primary-red);
     position: relative;
     top: -4px;
     left: 16px;
@@ -536,6 +534,8 @@ a.animated-button.gradient-filled:before {
 .h-section-3{
     z-index: 3;
     position: relative;
+    padding-top: 100px;
+    background-color: var(--golden-60);
 }
 
 .section-content{

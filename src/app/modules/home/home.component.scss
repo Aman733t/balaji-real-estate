@@ -125,16 +125,52 @@ a.animated-button.thar-three:before {
 // home section 2
 
 .home-section2 {
-    height: 100vh;
+    height: auto;
     width: 100%;
     position: relative;
-    background-color: var(--white-50);
+    background-color: var(--golden-100);
     top: 0px;
     display: flex;
     padding-top: 100px;
+    padding-bottom: 100px;
+}
 
+.home-section2 .section-content{
+    padding: 0px 32px 0px 0px;
+}
+
+.home-section2 {
+    .section-content{
+        h5{
+            color: var(--white-100);
+        }
+        h2{
+            padding: 0px 0px 0px 0px;
+            color: var(--white-100);
+        }
+        h1{
+            padding: 32px 0px 24px 0px;
+            color: var(--golden-80);
+        }
+        p{
+            padding: 0px 0px 0px 0px;
+            color: var(--white-100);
+        }
+    }
 }
 
 
+
+.h-section-2-image{
+    position: relative;
+}
+
+.h-section-2-image img:nth-child(2){
+    margin: -40px -48px;
+}
+
+.h-section-2-image img:nth-child(1){
+    max-width: 731px;
+}
 // Projects
 
