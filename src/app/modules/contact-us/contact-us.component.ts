@@ -12,6 +12,8 @@ import { ScrolldownComponent } from "../../components/scrolldown/scrolldown.comp
   styleUrl: './contact-us.component.scss'
 })
 export class ContactUsComponent {
+  public info:any = {};
+  
   constructor() {
 
   }
