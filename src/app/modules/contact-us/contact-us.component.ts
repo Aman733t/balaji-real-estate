@@ -12,15 +12,15 @@ import { ScrolldownComponent } from "../../components/scrolldown/scrolldown.comp
   styleUrl: './contact-us.component.scss'
 })
 export class ContactUsComponent {
-  public info:any = {};
-  
+  public info: any = {};
+
   constructor() {
 
   }
 
   scroller() {
-    let offset = 0;
-    let element: any = document.getElementById("h-section3");
+    let offset = -90;
+    let element: any = document.getElementById("c-section-2");
     let scroolValue = element.getBoundingClientRect().top + window.pageYOffset + offset;
     window.scrollTo({ top: scroolValue, behavior: 'smooth' })
   }

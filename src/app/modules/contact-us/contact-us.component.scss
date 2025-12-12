@@ -1,12 +1,12 @@
 .c-hero-section {
-    padding-top: 270px;
+    padding-top: 120px;
     padding-bottom: 186px;
     position: relative;
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 96px 96px;
-    background-color: var(--golden-80);
+    background-color: var(--golden-60);
 }
 
 .left-container>.content {
@@ -14,7 +14,7 @@
 }
 
 .left-container>.content h2 {
-    padding: 0px 0px 16px 0px;
+    padding: 0px 0px 32px 0px;
 }
 
 .connect-container {
@@ -25,49 +25,68 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 40px;
-    white-space: nowrap;
+    // white-space: nowrap;
+    
+}
+
+.connect-container div{
+    border: 1px solid var(--white-90);
+    border-radius: 6px;
+    background-color: var(--white-100);
+     transition: all 0.3s ease-in-out 0s;
+}
+.connect-container div:hover{
+    background: var(--golder-90);
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.12);
+}
+
+.connect-container img{
+    width: 60px;
 }
 
 
 .call-us {
     grid-area: call;
-    background-color: var(--black-100);
+    background-color: var(--white-100);
 }
 
 .connect-container h3 {
-    padding: 32px 0px 16px 0px;
+    padding: 16px 0px 0px 0px;
 }
 
 .connect-container .p1 {
-    padding: 8px 0px 0px 0px;
-    color: var(--white-80);
+    padding: 0px 0px 0px 0px;
+    color: var(--black-60);
+    margin: 0px 0px 0px 0px;
 }
 
 .email-us {
     grid-area: email;
-    background-color: var(--black-100);
+    background-color: var(--white-100);
 }
 
 .address {
     grid-area: address;
-    background-color: var(--black-100);
+    background-color: var(--white-100);
 }
 
 .call-us {
-    padding: 56px;
+    padding: 40px;
 }
 
 .email-us {
-    padding: 56px;
+    padding: 40px;
 }
 
 .address {
-    padding: 56px;
+    padding: 40px;
 }
 
 .right-container {
-    background-color: var(--black-100);
+    background-color: var(--white-100);
     padding: 64px;
+    border: 1px solid var(--white-90);
+    border-radius: 6px;
 }
 
 .right-container p {
@@ -77,8 +96,9 @@
 
 // form
 label {
-    color: var(--white-100);
+    color: var(--black-90);
     padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
 }
 
 input[type="text"],
@@ -98,11 +118,13 @@ textarea {
     ;
 }
 
+
 input[type="submit"] {
     min-width: 208px;
     height: 60px;
-    background: var(--primary-gradient);
-    color: #fff;
+    border: 2px solid var(--black-80) !important;
+    background-color: var(--white-100);
+    transition: all 0.5s cubic-bezier(.42, 0, .58, 1);
     padding: 10px;
     border: none;
     cursor: pointer;
@@ -112,22 +134,37 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background: var(--primary-red);
+    color: var(--white-100);
 }
 
 
 @media screen and (max-width: 1600px) {
 
     .c-hero-section {
-        grid-template-columns: 1fr;
-        gap: 96px 96px;
+        grid-template-columns: 1fr 1fr;
+        gap: 64px 64px;
     }
 
-    .connect-container {
-        grid-template-areas:
-            "call email address";
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr;
+    .right-container p {
+        padding: 8px 0px 32px 0px;
     }
+
+    .right-container{
+        padding: 48px;
+    }
+
+    .call-us,  .email-us, .address  {
+    padding: 32px;
+}
+
+
+
+    // .connect-container {
+    //     grid-template-areas:
+    //         "call email address";
+    //     grid-template-columns: 1fr 1fr 1fr;
+    //     grid-template-rows: 1fr;
+    // }
 }
 
 
@@ -143,7 +180,14 @@ input[type="submit"]:hover {
             "call email"
             "address address";
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .left-container>.content h2 {
+    padding: 0px 0px 20px 0px;
+}
+   .right-container{
+        padding: 40px;
     }
 }
 
@@ -157,7 +201,7 @@ input[type="submit"]:hover {
         "email email";
     }
     .right-container{
-        padding: 40px;
+        padding: 40px 32px;
     }
 }
 
@@ -169,11 +213,15 @@ input[type="submit"]:hover {
     }
 
     .call-us, .address, .email-us{
-        padding: 40px;
+        padding: 32px;
     }
 
     .left-container .content{
         padding: 0px 0px 40px 0px;
+    }
+
+      .right-container{
+        padding: 32px;
     }
 }
 
@@ -182,9 +230,11 @@ input[type="submit"]:hover {
         min-width: 100%;
        
     }
-
+ .call-us, .address, .email-us{
+        padding: 20px;
+    }
     .right-container{
-        padding: 40px 32px;
+        padding: 40px 20px;
     }
 
     .connect-container{
