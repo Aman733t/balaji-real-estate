@@ -1,0 +1,206 @@
+.c-hero-section {
+    padding-top: 270px;
+    padding-bottom: 186px;
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 96px 96px;
+    background-color: var(--golden-80);
+}
+
+.left-container>.content {
+    padding: 0px 0px 64px 0px;
+}
+
+.left-container>.content h2 {
+    padding: 0px 0px 16px 0px;
+}
+
+.connect-container {
+    display: grid;
+    grid-template-areas:
+        "call email"
+        "address address";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px;
+    white-space: nowrap;
+}
+
+
+.call-us {
+    grid-area: call;
+    background-color: var(--black-100);
+}
+
+.connect-container h3 {
+    padding: 32px 0px 16px 0px;
+}
+
+.connect-container .p1 {
+    padding: 8px 0px 0px 0px;
+    color: var(--white-80);
+}
+
+.email-us {
+    grid-area: email;
+    background-color: var(--black-100);
+}
+
+.address {
+    grid-area: address;
+    background-color: var(--black-100);
+}
+
+.call-us {
+    padding: 56px;
+}
+
+.email-us {
+    padding: 56px;
+}
+
+.address {
+    padding: 56px;
+}
+
+.right-container {
+    background-color: var(--black-100);
+    padding: 64px;
+}
+
+.right-container p {
+    padding: 32px 0px 48px 0px;
+}
+
+
+// form
+label {
+    color: var(--white-100);
+    padding: 0px 0px 0px 0px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    height: 60px;
+    margin: 5px 0;
+    border: 1px solid var(--white-50);
+    box-sizing: border-box;
+    margin: 8px 0px 32px 0px;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+    ;
+}
+
+input[type="submit"] {
+    min-width: 208px;
+    height: 60px;
+    background: var(--primary-gradient);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+input[type="submit"]:hover {
+    background: var(--primary-red);
+}
+
+
+@media screen and (max-width: 1600px) {
+
+    .c-hero-section {
+        grid-template-columns: 1fr;
+        gap: 96px 96px;
+    }
+
+    .connect-container {
+        grid-template-areas:
+            "call email address";
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+
+    .c-hero-section {
+        grid-template-columns: 1fr;
+        gap: 96px 96px;
+    }
+
+    .connect-container {
+        grid-template-areas:
+            "call email"
+            "address address";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+
+
+@media screen and (max-width: 999px) {
+
+    .connect-container {
+        grid-template-areas:
+        "call call"
+        "address address"
+        "email email";
+    }
+    .right-container{
+        padding: 40px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+
+    .c-hero-section {
+        gap: 64px 64px;
+        padding-top: 200px;
+    }
+
+    .call-us, .address, .email-us{
+        padding: 40px;
+    }
+
+    .left-container .content{
+        padding: 0px 0px 40px 0px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    input[type="submit"] {
+        min-width: 100%;
+       
+    }
+
+    .right-container{
+        padding: 40px 32px;
+    }
+
+    .connect-container{
+        white-space: normal;
+    }
+
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

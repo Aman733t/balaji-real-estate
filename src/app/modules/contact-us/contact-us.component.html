@@ -10,4 +10,74 @@
     </div>
     <app-scrolldown class="h-scrolldown page-scrolldown" (click)="scroller()"></app-scrolldown>
 </section>
+
+<section class="c-hero-section contain">
+    <div class="left-container">
+        <div class="content">
+            <h5>CONTACT</h5>
+            <h2>Get in touch</h2>
+            <p class="ps">Ready to bring your vision to life? Reach out to us now let's collaborate
+                to bring your vision to life! We are just a email or call away.</p>
+        </div>
+
+        <div class="connect-container">
+            <div class="call-us">
+                <img src="../../../assets/contact/call-us.svg" alt="">
+                <h3>Call Us</h3>
+                <p class="ps p1"> Mon-Fri from 9:00 - 18:00 IST</p>
+
+                <a class="ps" href="tel:+917304564563">
+                    <p class="ps"> +91 7304564563</p>
+                </a>
+            </div>
+            <div class="email-us">
+                <img src="../../../assets/contact/email-us.svg" alt="">
+                <h3>Email Us</h3>
+                <p class="ps p1"> Drop us a mail anytime</p>
+
+                <a href="mailto:deepika@deecreations.in?subject = Product Support&body = Message">
+                    <p class="ps">deepika@deecreations.in</p>
+                </a>
+
+            </div>
+            <div class="address">
+                <img src="../../../assets/contact/address.svg" alt="">
+                <h3>Address</h3>
+                <p class="ps p1"> See us in action</p>
+                <p class="ps"> Parel, Mumbai (India)</p>
+            </div>
+        </div>
+    </div>
+    <div class="right-container">
+        <h3>Send us a message</h3>
+        <p class="ps">Ready to talk? Just a few clicks stand between us and solving your queries. Fill out the form
+            below and let's get this conversation started!</p>
+        <div class="c-form">
+            <form (ngSubmit)="submitForm()">
+                <label>Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Your full name.." required
+                    [(ngModel)]="info.customer_name">
+
+                <label>Email</label>
+                <input type="email" id="email" name="email" placeholder="Your email.." required
+                    [(ngModel)]="info.customer_email">
+
+                <!-- <label>Mobile Number</label>
+                <input type="number" id="number" name="number" placeholder="Your Mobile Number.." required [(ngModel)]="info.customer_mobile_number"> -->
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject.." required
+                    [(ngModel)]="info.inquiry_subject">
+
+                <label for="message">Message</label>
+                <textarea name="message" placeholder="Write something.." style="height:200px" required
+                    [(ngModel)]="info.inquiry_message"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+    </div>
+
+</section>
 <app-footer></app-footer>
