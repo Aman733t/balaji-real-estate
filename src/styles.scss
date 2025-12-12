@@ -482,6 +482,54 @@ a.animated-button.white-outlined:before {
     transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
 
+// Black Outlined Button
+
+a.animated-button.black-outlined {
+    color: var(--black-80);
+    font-size: 17px;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding-top: 16px;
+    display: block;
+    position: relative;
+    border: 2px solid var(--black-80);
+    background-color: var(--white-100);
+    transition: all 0.5s cubic-bezier(.42, 0, .58, 1);
+    height: 60px;
+    border-radius: 0px;
+    overflow: hidden;
+    text-align: center;
+    font-weight: 500;
+}
+
+a.animated-button.black-outlined:hover {
+    /* color: #000 !important; */
+    background-color: transparent;
+    text-shadow: nthree;
+    text-decoration: none;
+    color: var(--white-100);
+}
+
+a.animated-button.black-outlined:hover:before {
+    left: 0%;
+    right: auto;
+    width: 100%;
+}
+
+a.animated-button.black-outlined:before {
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 60px;
+    width: 0px;
+    z-index: -1;
+    content: '';
+    color: #000 !important;
+    background: var(--primary-color);
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
 //Button Gradiant Filled
 
 a.animated-button.gradient-filled {
@@ -535,12 +583,13 @@ a.animated-button.gradient-filled:before {
     z-index: 3;
     position: relative;
     padding-top: 100px;
+    padding-bottom: 100px;
     background-color: var(--golden-60);
 }
 
 .section-content{
     position: relative;
-    padding: 0px 0px 100px 0px;
+    padding: 0px 0px 48px 0px;
 }
 .h-projects-container{
     display: grid;
@@ -555,16 +604,20 @@ a.animated-button.gradient-filled:before {
   }
   
   .h-projects-card{
-  padding: 24px;
+  padding: 0px;
   border-radius: 2px;
-  background: transparent;
-  border: 2px solid var(--black-70);
+  background: var(--white-100);
+  border: 1px solid var(--white-90);
   min-height: 363px;
   position: relative;
+  transition: all 0.3s ease-in-out 0s;
+ border-radius: 6px;
+
   }
 
   .h-projects-card:hover{
-    background: var(--primary-red);
+    background: var(--golder-90);
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.12);
   }
 
   .h-projects-image{
@@ -577,16 +630,26 @@ a.animated-button.gradient-filled:before {
     object-fit: cover;
   }
   
-  .h-projects-card h3{
-    padding: 80px 0px 24px 0px;
-    text-align: center;
+    .h-projects-card-content{
+    padding: 24px;
   }
+
+  .h-projects-card h2{
+    padding: 0px 0px 0px 0px;}
   
   .h-projects-card p{
     padding: 0px 0px 0px 0px;
-    text-align: center;
-    color: white;
+    color: var(--black-70);
+    margin: 0px 0px 2px 0px;
   }
+
+  .h-projects-card span{
+    padding: 0px 16px 0px 0px;
+  }
+
+.project-card-button{
+    width: 100%;
+}
   
   .h-section-3 .projects-btn{
     position: relative;
