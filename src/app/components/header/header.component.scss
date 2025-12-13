@@ -178,10 +178,10 @@ ul li a:hover::after {
 // 1400
 @media (max-width: 1600px) {
     .header-container {
-    height: 90px;
+    height: 80px;
 }
 .header li a {
-    padding: 33.5px 32px !important;
+    padding: 28.5px 32px !important;
 }
 
 .header-logo {
@@ -240,7 +240,7 @@ ul li a:hover::after {
 
 @media screen and (max-width: 999px){
     .header-container{
-        background-color: var(--black-90);
+        // background-color: var(--black-90);
         height: 80px;
     }
 

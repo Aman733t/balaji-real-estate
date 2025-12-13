@@ -1,0 +1,87 @@
+// a-section-2
+
+.a-section-2{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: var(--golden-100);
+    position: relative;
+    color: var(--golden-80);
+    
+        .section-content{
+                padding: 200px 0px 200px 0px;
+        }
+
+}
+
+.about-collage-container {
+    grid-column-gap: .35rem;
+    grid-row-gap: .35rem;
+    height: 30vh;
+    display: flex;
+    overflow: hidden;
+}
+    
+    
+    .image-collage {
+grid-column-gap: .35rem;
+    grid-row-gap: .35rem;
+flex: none;
+    overflow: hidden;
+  
+}
+
+.image-collage-inner{
+        grid-column-gap: .35rem;
+    grid-row-gap: .35rem;
+    flex-flow: row;
+    flex: none;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    display: flex;
+    position: relative;
+      animation: infiniteScroll 60s linear infinite; 
+    
+}
+
+.image-collage-inner img{
+        z-index: 1;
+    // aspect-ratio: 3/2;
+    object-fit: cover;
+    border-radius: .35rem;
+    flex: none;
+    height: 100%;
+    transition: all .4s cubic-bezier(.19,1,.22,1);
+    position: relative;
+    max-width: 100%;
+    vertical-align: middle;
+    // aspect-ratio: 1;
+      
+}
+
+.image-ccollage{
+   translate: none;
+   rotate: none;
+   scale: none; 
+
+
+}
+
+@keyframes infiniteScroll {
+  0% {
+    /* Start position: both content blocks are at x=0 */
+    transform: translate3d(0, 0, 0); 
+  }
+  100% {
+    /* End position: move left by the width of a single content block */
+    /* Use a negative percentage (e.g., -100%) or pixel value matching content width */
+    transform: translate3d(-100%, 0, 0); 
+  }
+}
+
+.gold-block{
+    height: 100px;
+    background-color: var(--golden-100);
+    width: 100%;
+}
