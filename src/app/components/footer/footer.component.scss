@@ -12,13 +12,17 @@
 
 .f-pattern img{
     object-fit: cover;
-    height: 50vh;
+    height: 40vh;
     width: 100%;
 }
 
 .f-pattern-home{
   position: absolute;
   width: 100%;
+  bottom: 0px;
+  max-width: 1600px;
+  left: 50%;
+  transform: translate(-50%);
 }
 .f-pattern-home img{
   width: 100%;
@@ -35,6 +39,7 @@
     text-align: center;
     padding: 96px 0px 0px 0px;
     color: var(--white-100);
+    width: 80%;
 }
 
 .f-content > img{
