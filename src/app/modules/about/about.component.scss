@@ -9,15 +9,31 @@
     color: var(--golden-80);
     
         .section-content{
-                padding: 200px 0px 200px 0px;
+                padding: 200px 0px 0px 0px;
         }
 
+}
+
+.about-years{
+    padding: 0px 200px 100px 200px;
+    max-width: 1300px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: left;
+    h2{
+        padding: 0px 0px 32px 0px;
+    }
+    p{
+        font-size: 24px;
+        color: var(--white-100);
+    }
 }
 
 .about-collage-container {
     grid-column-gap: .35rem;
     grid-row-gap: .35rem;
-    height: 30vh;
+    height: 420px;
     display: flex;
     overflow: hidden;
 }
@@ -81,14 +97,16 @@ flex: none;
 }
 
 .gold-block{
-    height: .35rem;
+    height: 200px;
     background-color: var(--golden-100);
     width: 100%;
 }
 
+.quote{
+    padding: 200px 0px 200px 0px;
+}
 
 // section 3
-
 
 
 .image-full-width{
@@ -119,5 +137,62 @@ img{
     width: 100%;
     position: relative;
     height: 100vh;
-    background-color: var(--golden-60);
+    background-color: var(--golden-80);
+}
+
+.width-100{
+    max-width: 1000px;
+}
+
+
+@media screen and (max-width: 1600px){
+    .a-section-2 .section-content{
+        padding: 120px 0px 0px 0px;
+    }
+
+    .about-collage-container{
+        height: 340px;
+    }
+
+    .quote{
+    padding: 120px 20px 120px 20px;
+}}
+
+@media screen and (max-width: 1500px){
+
+    .about-collage-container{
+        height: 320px;
+    }
+}
+
+@media screen and (max-width: 1400px){
+
+
+    .about-collage-container{
+        height: 300px;
+    }
+
+    .quote{
+    padding: 120px 20px 120px 20px;
+}
+
+.about-years{
+    padding: 0px 200px 100px 200px;
+    max-width: 100%;
+}
+}
+@media screen and (max-width: 1200px){
+
+.about-years{
+    padding: 0px 100px 100px 100px;
+    max-width: 100%;
+    p{font-size: 20px;}
+}
+}
+@media screen and (max-width: 800px){
+
+
+.about-years{
+    padding: 0px 40px 100px 40px;
+}
 }
