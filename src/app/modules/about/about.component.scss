@@ -81,7 +81,43 @@ flex: none;
 }
 
 .gold-block{
-    height: 100px;
+    height: .35rem;
     background-color: var(--golden-100);
     width: 100%;
+}
+
+
+// section 3
+
+
+
+.image-full-width{
+width: 100%;
+height: auto;
+background-color: var(--black-60);
+position: relative;
+
+img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+
+}
+}
+
+.layer-dark-1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--black-80);
+    opacity: .4;
+}
+
+// section 4
+
+.a-section-4{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background-color: var(--golden-60);
 }

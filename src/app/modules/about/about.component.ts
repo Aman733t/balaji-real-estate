@@ -17,8 +17,8 @@ export class AboutComponent {
   }
 
   scroller() {
-    let offset = 0;
-    let element: any = document.getElementById("h-section3");
+    let offset = -80;
+    let element: any = document.getElementById("a-section-2");
     let scroolValue = element.getBoundingClientRect().top + window.pageYOffset + offset;
     window.scrollTo({ top: scroolValue, behavior: 'smooth' })
   }
