@@ -601,7 +601,7 @@ top: 0px;
 }
 .h-projects-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: left;
     margin: 24px 0px 80px 0px;
     gap: 112px 88px;
@@ -640,6 +640,7 @@ top: 0px;
    width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 6px 6px 0px 0px;
   }
   
     .h-projects-card-content{
@@ -669,6 +670,18 @@ top: 0px;
     top: 50%;
     transform: translate(-50%, -50%);
   }
+
+
+
+@media screen and (max-width: 1800px){
+.h-projects-container{
+    grid-template-columns: 1fr 1fr;
+    justify-content: left;
+    margin: 24px 0px 80px 0px;
+    gap: 96px 64px;
+    padding: 0px 0px 0px 0px;
+  }
+}
 
 @media screen and (max-width: 1600px){
 .h-projects-container{
