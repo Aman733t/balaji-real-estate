@@ -165,14 +165,63 @@ a.animated-button.thar-three:before {
 
 .h-section-2-image{
     position: relative;
+
 }
 
 .h-section-2-image img:nth-child(2){
-    margin: -40px -48px;
+    position: absolute;
+    bottom: -40px;
+    right: -68px;
+
 }
 
 .h-section-2-image img:nth-child(1){
-    max-width: 731px;
+        width: 30vw;
 }
+
+
+@media screen and (max-width:1600px) {
+ 
+.h-section-2-image img:nth-child(1){
+        width: 550px;
+        }  
+}
+@media screen and (max-width:1400px) {
+ 
+.h-section-2-image img:nth-child(1){
+        width: 480px;
+        }  
+}
+@media screen and (max-width:1200px) {
+ 
+.h-section-2-image img:nth-child(1){
+        width: 370px;
+        }  
+    .h-section-2-image img:nth-child(2){
+    bottom: 32px;
+    right: -68px;
+}
+}
+
+@media screen and (max-width:999px) {
+ 
+    .home-section2 .section-content {
+     padding: 0px 0px 0px 0px;
+    }
+
+.home-section2{
+    flex-direction: column;
+}
+
+.h-section-2-image img:nth-child(1){
+        width: 90%;
+        padding-top: 40px;
+        }  
+    .h-section-2-image img:nth-child(2){
+    bottom: -41px;
+        right: 0px;
+}
+}
+
 // Projects
 
