@@ -572,8 +572,64 @@ a.animated-button.gradient-filled:before {
     background: var(--primary-gradient);
     transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
 }
-// Home About Section
 
+// Global CSS
+
+.layer-dark-1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--black-80);
+    opacity: .4;
+}
+
+// Home About Section
+.section-image-100{
+    position: relative;
+    width: 100%;
+    height: 95vh;
+
+.parallax-background {
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax-1 {
+  background-image: url("/assets/home/shahrukhz-danube-f-img-1.jpg");
+}
+.parallax-2 {
+  background-image: url("https://images.unsplash.com/photo-1543722530-d2c3201371e7?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NjIzOTExOTg&ixlib=rb-1.2.1&q=80");
+}
+.image-full-width{
+width: 100%;
+height: 100%;
+background-color: var(--black-60);
+position: relative;
+
+img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+
+}
+}
+
+.content{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white-100);
+}
+}
 
 
 // Home Projects Section
@@ -675,7 +731,7 @@ top: 0px;
 
 @media screen and (max-width: 1800px){
 .h-projects-container{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: left;
     margin: 24px 0px 80px 0px;
     gap: 96px 64px;
@@ -685,10 +741,10 @@ top: 0px;
 
 @media screen and (max-width: 1600px){
 .h-projects-container{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: left;
     margin: 24px 0px 80px 0px;
-    gap: 80px 64px;
+    gap: 60px 40px;
     padding: 0px 0px 0px 0px;
   }
 }
@@ -710,6 +766,10 @@ top: 0px;
     gap: 48px 40px;
     padding: 0px 0px 0px 0px;
   }
+
+  .section-image-100{
+    height: 80vh;
+}
 }
 @media screen and (max-width: 800px){
 .h-projects-container{
