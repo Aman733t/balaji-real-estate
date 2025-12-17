@@ -45,9 +45,42 @@
 
 .d-section-3{
     width: 100%;
-    height: 100vh;
+    height: 40vh;
     background-color: var(--golden-100);
 }
+
+// Project Map Section
+.project-map-section{
+    width: 100%;
+    position: relative;
+    min-height: 70vh;
+    background-color: var(--white-100);
+ 
+    .map-container{
+        width: 100%;
+        height: 70vh;
+        padding: 20px 0px 20px 0px;
+        
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+// Project FAQ Section
+
+.faq-section{
+    width: 100%;
+    height: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: var(--golden-60);
+}
+
+// Project Navigation
 
 .project-navigation{
     width: 100%;
