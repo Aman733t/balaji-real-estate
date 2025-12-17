@@ -1,0 +1,50 @@
+.d-section-2{
+    position: relative;
+    width: 100%;
+    background-color: var(--golden-60);
+    display: flex;
+    flex-direction: row;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    .image-container{
+        position: relative;
+        width: 50%;
+        max-width: 600px;
+
+        img{
+            position: relative;
+            object-fit: cover;
+            width: 100%;
+        }
+    }
+
+    .project-details-content{
+        padding: 0px 32px 0px 0px;
+        width: 50%;
+        
+        h3{
+            padding: 16px 0px 8px 0px;
+        }
+
+        p{
+            padding: 8px 0px 0px 0px;
+        }
+
+        .para{
+            padding: 16px 0px 0px 0px;
+        }
+
+        span{
+            padding: 0px 8px 0px 0px;
+        }
+
+    }
+}
+
+
+.d-section-3{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--golden-100);
+}
