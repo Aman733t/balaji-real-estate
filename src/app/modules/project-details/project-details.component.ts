@@ -13,13 +13,13 @@ import { ScrolldownComponent } from '../../components/scrolldown/scrolldown.comp
 })
 export class ProjectDetailsComponent {
 
-  constructor(){
+  constructor() {
 
   }
 
   scroller() {
-    let offset = 0;
-    let element: any = document.getElementById("h-section3");
+    let offset = -80;
+    let element: any = document.getElementById("d-section-2");
     let scroolValue = element.getBoundingClientRect().top + window.pageYOffset + offset;
     window.scrollTo({ top: scroolValue, behavior: 'smooth' })
   }
