@@ -23,8 +23,8 @@
         padding: 0px 32px 0px 0px;
         width: 50%;
         
-        h3{
-            padding: 16px 0px 8px 0px;
+        h2{
+            padding: 16px 0px 0px 0px;
         }
 
         p{
@@ -428,3 +428,23 @@
 
 }
 
+@media screen and (max-width:999px) {
+    .d-section-2{
+    flex-direction: column;
+    padding-top: 80px;
+        .project-details-content{
+            padding: 0px 0px 0px 0px;
+    width: 100%;
+
+    h2{
+        padding: 0px 0px 0px 0px;
+    }
+        }
+
+        .image-container{
+            width: 100%;
+    max-width: none;
+        }
+}
+    
+}
