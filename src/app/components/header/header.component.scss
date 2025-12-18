@@ -266,3 +266,22 @@ ul li a:hover::after {
     bottom: 0px;
     position: relative;
 }
+
+@media screen and (max-width: 500px){
+  
+    .header-logo{
+        width: 250px;
+    }
+}
+@media screen and (max-width: 400px){
+  
+    .header-logo{
+        width: 220px;
+    }
+}
+
+
+.menu-bottom-elements img{
+    bottom: 0px;
+    position: relative;
+}

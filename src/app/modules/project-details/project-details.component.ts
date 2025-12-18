@@ -23,4 +23,25 @@ export class ProjectDetailsComponent {
     let scroolValue = element.getBoundingClientRect().top + window.pageYOffset + offset;
     window.scrollTo({ top: scroolValue, behavior: 'smooth' })
   }
+
+  ngAfterViewInit(): void {
+    const items = document.querySelectorAll(".accordion button");
+
+    function toggleAccordion(this: HTMLElement) {
+      const itemToggle = this.getAttribute('aria-expanded');
+
+      items.forEach(item => {
+        item.setAttribute('aria-expanded', 'false');
+      });
+
+      if (itemToggle === 'false') {
+        this.setAttribute('aria-expanded', 'true');
+      }
+    }
+
+    items.forEach(item => {
+      item.addEventListener('click', toggleAccordion);
+    });
+  }
 }
+
