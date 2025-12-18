@@ -1,8 +1,10 @@
-import { Component } from '@angular/core';
+import { Component, ViewChild, AfterViewInit, signal, HostListener, ElementRef, Renderer2 } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
 import { PackagesModule } from '../../libs/packages/packages.module';
 import { HeaderComponent } from "../../components/header/header.component";
 import { FooterComponent } from "../../components/footer/footer.component";
 import { ScrolldownComponent } from '../../components/scrolldown/scrolldown.component';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-project-details',
@@ -12,9 +14,20 @@ import { ScrolldownComponent } from '../../components/scrolldown/scrolldown.comp
   styleUrl: './project-details.component.scss'
 })
 export class ProjectDetailsComponent {
+  public productId: string | null = null;
+  private routeSub: Subscription | undefined;
+  constructor(private router: Router, private route: ActivatedRoute) { }
 
-  constructor() {
+  ngOnInit() {
+    this.routeSub = this.route.params.subscribe((params:any) => {
+      console.log(params);
+    });
+  }
 
+  ngOnDestroy() {
+    if (this.routeSub) {
+      this.routeSub.unsubscribe();
+    }
   }
 
   scroller() {
