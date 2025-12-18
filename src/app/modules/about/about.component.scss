@@ -104,6 +104,10 @@ flex: none;
 
 .quote{
     padding: 200px 0px 200px 0px;
+    max-width: 1000px;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%);
 }
 
 // section 3
