@@ -9,7 +9,7 @@
 
     .image-container{
         position: relative;
-        width: 50%;
+        width: 40%;
         max-width: 600px;
 
         img{
@@ -21,10 +21,10 @@
 
     .project-details-content{
         padding: 0px 32px 0px 0px;
-        width: 50%;
+        width: 60%;
         
         h2{
-            padding: 16px 0px 0px 0px;
+            padding: 0px 0px 0px 0px;
         }
 
         p{
@@ -41,6 +41,23 @@
 
     }
 }
+
+.enq-brochure-button{
+      width: 100%;
+    display: flex;
+    gap: 20px;
+
+}
+
+.download-brochure{
+  span{
+    // position: relative;
+    // z-index: 1;
+    // top: 50%;
+    // transform: translate(-50%);
+  }
+}
+
 
 
 // Images Section
@@ -186,6 +203,16 @@
   font-size: 1rem;
   font-weight: 300;
   margin: 2em 0;
+}
+
+// Project Enquiry
+
+
+.d-p-enquiry-section{
+  width: 100%;
+  position: relative;
+  height: auto;
+  background-color: var(--golden-100);
 }
 
 // Project Navigation
@@ -445,6 +472,10 @@
             width: 100%;
     max-width: none;
         }
+}
+
+.enq-brochure-button{
+  padding: 0px 0px 32px 0px;
 }
     
 }

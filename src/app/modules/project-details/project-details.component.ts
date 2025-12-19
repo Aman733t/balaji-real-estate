@@ -15,11 +15,12 @@ import { Subscription } from 'rxjs';
 })
 export class ProjectDetailsComponent {
   public productId: string | null = null;
+  public info: any = {};
   private routeSub: Subscription | undefined;
   constructor(private router: Router, private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.routeSub = this.route.params.subscribe((params:any) => {
+    this.routeSub = this.route.params.subscribe((params: any) => {
       console.log(params);
     });
   }
