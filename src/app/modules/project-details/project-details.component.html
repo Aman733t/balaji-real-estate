@@ -246,43 +246,41 @@
 
 <!-- Project Enquiry -->
 
-<section class="d-p-enquiry-section">
-    <div class="d-p-image-container">
-        <img src="" alt="">
-    </div>
-    <div class="section-content">
-        <h5 class="section-heading">Know more</h5>
-        <h2>Project Enquiry</h2>
-    </div>
-    <div class="enquiry-form-container">
-        <div class="right-container">
-            <h3>Send us a Message</h3>
-            <p class="ps">Ready to talk? Just a few clicks stand between us and solving your queries. Fill out the form
-                below and let's get this conversation started!</p>
-            <div class="c-form">
-                <form>
-                    <label>Full Name</label>
-                    <input type="text" id="fullname" name="fullname" placeholder="Your full name.." required
-                        [(ngModel)]="info.customer_name">
+<section class="d-p-enquiry-section contain">
 
-                    <label>Email</label>
-                    <input type="email" id="email" name="email" placeholder="Your email.." required
-                        [(ngModel)]="info.customer_email">
+    <div class="d-p-enquiry-container">
+        <div class="section-content">
+            <h5 class="section-heading">Know more</h5>
+            <h2>Project Enquiry</h2>
+        </div>
+        <div class="enquiry-form-container">
+            <div class="right-container">
 
-                    <!-- <label>Mobile Number</label>
-                <input type="number" id="number" name="number" placeholder="Your Mobile Number.." required [(ngModel)]="info.customer_mobile_number"> -->
+                <div class="c-form">
+                    <form>
+                        <label>Full Name</label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Your full name.." required
+                            [(ngModel)]="info.customer_name">
 
-                    <label for="subject">Subject</label>
-                    <input type="text" id="subject" name="subject" placeholder="Subject.." required
-                        [(ngModel)]="info.inquiry_subject">
+                        <label>Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your email.." required
+                            [(ngModel)]="info.customer_email">
 
-                    <label for="message">Message</label>
-                    <textarea name="message" placeholder="Write something.." style="height:200px" required
-                        [(ngModel)]="info.inquiry_message"></textarea>
+                        <!-- <label>Mobile Number</label>
+                    <input type="number" id="number" name="number" placeholder="Your Mobile Number.." required [(ngModel)]="info.customer_mobile_number"> -->
 
-                    <input type="submit" value="Submit >">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Subject.." required
+                            [(ngModel)]="info.inquiry_subject">
 
-                </form>
+                        <label for="message">Message</label>
+                        <textarea name="message" placeholder="Write something.." style="height:140px" required
+                            [(ngModel)]="info.inquiry_message"></textarea>
+
+                        <input type="submit" value="Submit >">
+
+                    </form>
+                </div>
             </div>
         </div>
     </div>
