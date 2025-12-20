@@ -47,6 +47,11 @@
     display: flex;
     gap: 20px;
 
+    .button{
+    width: 100%;
+    max-width: 220px;
+  }
+  
 }
 
 .download-brochure{
@@ -567,6 +572,11 @@ input[type=number] {
 
 .enq-brochure-button{
   padding: 0px 0px 32px 0px;
+
+  .button{
+    width: 100%;
+    max-width: 220px;
+  }
 }
     
 }
