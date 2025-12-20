@@ -9,13 +9,12 @@
     color: var(--golden-80);
     
         .section-content{
-                padding: 200px 0px 0px 0px;
+                padding: 200px 0px 100px 0px;
         }
 
 }
 
 .about-years{
-    padding: 0px 200px 100px 200px;
     max-width: 1300px;
     position: relative;
     left: 50%;
@@ -201,8 +200,11 @@ img{
 
 
 @media screen and (max-width: 1600px){
+.about-years{
+    max-width: 1000px;}
+
     .a-section-2 .section-content{
-        padding: 120px 0px 0px 0px;
+        padding: 120px 0px 80px 0px; 
     }
 
     .about-collage-container{
@@ -222,6 +224,9 @@ img{
 
 @media screen and (max-width: 1400px){
 
+    .a-section-2 .section-content{
+        padding: 100px 0px 80px 0px; 
+    }
 
     .about-collage-container{
         height: 300px;
@@ -232,7 +237,7 @@ img{
 }
 
 .about-years{
-    padding: 0px 200px 100px 200px;
+    // padding: 0px 200px 100px 200px;
     max-width: 100%;
 }
 
@@ -243,7 +248,7 @@ img{
 @media screen and (max-width: 1200px){
 
 .about-years{
-    padding: 0px 100px 100px 100px;
+    // padding: 0px 100px 100px 100px;
     max-width: 100%;
     p{font-size: 20px;}
 }
@@ -258,7 +263,7 @@ img{
 
 
 .about-years{
-    padding: 0px 40px 100px 40px;
+    // padding: 0px 40px 100px 40px;
 }
 
 .team-container{
