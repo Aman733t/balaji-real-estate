@@ -28,9 +28,9 @@ export class FooterComponent {
 
   goToWhatsapp() {
     // Phone number you want to send the message to
-    var phoneNumber = "7304564563";
+    var phoneNumber = "9821294212";
     // Message you want to send
-    var message = "Hello there..";
+    var message = "Hello..";
     // Encode the phone number and message for URL
     var encodedPhoneNumber = encodeURIComponent(phoneNumber);
     var encodedMessage = encodeURIComponent(message);
