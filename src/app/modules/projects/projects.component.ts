@@ -166,7 +166,7 @@ export class ProjectsComponent {
       property_type: 'Residential'
     }, {
       id: 21,
-      name: 'Address-The Bay Summary',
+      name: 'Address The Bay Summary',
       hero_image: '../../assets/projects/21. Address-The Bay Summary thumbnail 1.jpg',
       property_developer: 'Emaar Group',
       property_location: 'Dubai',

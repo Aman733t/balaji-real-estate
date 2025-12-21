@@ -115,104 +115,34 @@
     </div>
 
     <div class="h-projects-container">
-        <div class="h-projects-card">
-            <div class="h-projects-image"><img src="../../assets/projects/Shahrukhz Danube thumbnail.jpg" alt=""></div>
+        <div class="h-projects-card" *ngFor="let project of projectsArr; let i = index">
+            <div class="h-projects-image">
+                <img [src]="project.hero_image" alt=""></div>
             <div class="h-projects-card-content">
-                <h3>Shahrukhz Danube </h3>
-                <p class="ps"> <span class="properties-developer"> <img
-                            src="../../assets/projects/properties-developer.svg" alt=""></span>Danube Properties</p>
-                <p class="ps"> <span class="properties-location"> <img
-                            src="../../assets/projects/Properties-location.svg" alt=""></span>Dubai</p>
-                <p class="ps"> <span class="properties-type"> <img src="../../assets/projects/properties-type.svg"
-                            alt=""></span>Commercial</p>
-                <div class="button project-card-button"> <a href="/projects"
-                        class="animated-button black-outlined">View
-                        All Details ></a>
+                <h3>{{project.name}}</h3>
+                <p class="ps"> 
+                    <span class="properties-developer"> 
+                        <img src="../../assets/projects/properties-developer.svg" alt="">
+                    </span>
+                    {{project.property_developer}}
+                </p>
+                <p class="ps">
+                    <span class="properties-location"> 
+                        <img src="../../assets/projects/Properties-location.svg" alt="">
+                    </span>
+                    {{project.property_location}}
+                </p>
+                <p class="ps">
+                    <span class="properties-type"> 
+                        <img src="../../assets/projects/properties-type.svg" alt="">
+                    </span>
+                    {{project.property_type}}
+                </p>
+                <div class="button project-card-button">
+                    <a href="/projects" class="animated-button black-outlined">View All Details ></a>
                 </div>
             </div>
         </div>
-        <div class="h-projects-card">
-            <div class="h-projects-image"><img src="../../assets/projects/Breeze by Danube thumbnail.jpg" alt=""></div>
-            <div class="h-projects-card-content">
-                <h3>Breeze By Danube </h3>
-                <p class="ps"> <span class="properties-developer"> <img
-                            src="../../assets/projects/properties-developer.svg" alt=""></span>Danube Properties</p>
-                <p class="ps"> <span class="properties-location"> <img
-                            src="../../assets/projects/Properties-location.svg" alt=""></span>Dubai</p>
-                <p class="ps"> <span class="properties-type"> <img src="../../assets/projects/properties-type.svg"
-                            alt=""></span>Residential</p>
-                <div class="button project-card-button"> <a href="/projects"
-                        class="animated-button black-outlined">View
-                        All Details ></a>
-                </div>
-            </div>
-        </div>
-        <div class="h-projects-card">
-            <div class="h-projects-image"><img src="../../assets/projects/Fortune One Thumbnail.jpg" alt=""></div>
-            <div class="h-projects-card-content">
-                <h3>Fortune One </h3>
-                <p class="ps"> <span class="properties-developer"> <img
-                            src="../../assets/projects/properties-developer.svg" alt=""></span>Fortune Group</p>
-                <p class="ps"> <span class="properties-location"> <img
-                            src="../../assets/projects/Properties-location.svg" alt=""></span>Vapi</p>
-                <p class="ps"> <span class="properties-type"> <img src="../../assets/projects/properties-type.svg"
-                            alt=""></span>Commercial</p>
-                <div class="button project-card-button"> <a href="/projects"
-                        class="animated-button black-outlined">View
-                        All Details ></a>
-                </div>
-            </div>
-        </div>
-        <div class="h-projects-card">
-            <div class="h-projects-image"><img src="../../assets/projects/Fortune Landmark Thumbnail.jpg" alt=""></div>
-            <div class="h-projects-card-content">
-                <h3>Fortune Landmark </h3>
-                <p class="ps"> <span class="properties-developer"> <img
-                            src="../../assets/projects/properties-developer.svg" alt=""></span>Fortune Group</p>
-                <p class="ps"> <span class="properties-location"> <img
-                            src="../../assets/projects/Properties-location.svg" alt=""></span>Vapi</p>
-                <p class="ps"> <span class="properties-type"> <img src="../../assets/projects/properties-type.svg"
-                            alt=""></span>Commercial</p>
-                <div class="button project-card-button"> <a href="/projects"
-                        class="animated-button black-outlined">View
-                        All Details ></a>
-                </div>
-            </div>
-        </div>
-        <div class="h-projects-card">
-            <div class="h-projects-image"><img src="../../assets/projects/Fortune Nest thumbnail.jpg" alt=""></div>
-            <div class="h-projects-card-content">
-                <h3>Fortune Nest </h3>
-                <p class="ps"> <span class="properties-developer"> <img
-                            src="../../assets/projects/properties-developer.svg" alt=""></span>Fortune Group</p>
-                <p class="ps"> <span class="properties-location"> <img
-                            src="../../assets/projects/Properties-location.svg" alt=""></span>Valsad</p>
-                <p class="ps"> <span class="properties-type"> <img src="../../assets/projects/properties-type.svg"
-                            alt=""></span>Residential</p>
-                <div class="button project-card-button"> <a href="/projects"
-                        class="animated-button black-outlined">View
-                        All Details ></a>
-                </div>
-            </div>
-        </div>
-        <div class="h-projects-card">
-            <div class="h-projects-image"><img src="../../assets/projects/Fortune Siddhivinayak thumbnail.jpg" alt="">
-            </div>
-            <div class="h-projects-card-content">
-                <h3>Fortune Siddhivinayak </h3>
-                <p class="ps"> <span class="properties-developer"> <img
-                            src="../../assets/projects/properties-developer.svg" alt=""></span>Fortune Group</p>
-                <p class="ps"> <span class="properties-location"> <img
-                            src="../../assets/projects/Properties-location.svg" alt=""></span>Valsad</p>
-                <p class="ps"> <span class="properties-type"> <img src="../../assets/projects/properties-type.svg"
-                            alt=""></span>Commercial</p>
-                <div class="button project-card-button"> <a href="/projects"
-                        class="animated-button black-outlined">View
-                        All Details ></a>
-                </div>
-            </div>
-        </div>
-
     </div>
 </section>
 
