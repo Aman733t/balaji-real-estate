@@ -632,6 +632,8 @@ img{
 
 // Home Projects Section
 
+
+
 .h-section-3{
     z-index: 3;
     position: relative;
@@ -653,6 +655,104 @@ top: 0px;
     position: relative;
     padding: 0px 0px 48px 0px;
 }
+
+// Projects Page Filter
+
+/* Container spacing */
+.projects-filter {
+  display: flex;
+  gap: 32px; 
+  justify-content: center; 
+  align-items: center;
+  padding: 0px 0px 16px 0px;
+}
+
+/* Base button / tab style */
+.filter-tab,
+.projects-filter button {
+  position: relative;
+  background: none;
+  border: none;
+  outline: none;
+  padding: 8px 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--white-60);
+  cursor: pointer;
+  transition: color 200ms ease, transform 200ms ease;
+  appearance: none;
+  -webkit-appearance: none;
+  box-shadow: none;
+}
+
+/* Keyboard accessibility */
+.filter-tab:focus-visible {
+  color: #111;
+}
+
+/* Remove browser-specific focus outline */
+.projects-filter button::-moz-focus-inner {
+  border: 0;
+}
+
+/* Underline setup */
+.filter-tab::after {
+  position: absolute;
+    content: "";
+    width: 100%;
+    height: 3px;
+    top: 97%;
+    left: 0;
+    background: var(--primary-red);
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+}
+
+/* Hover animation: left → right */
+.filter-tab:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+/* Active tab: line stays */
+.filter-tab.active::after {
+  transform: scaleX(1);
+}
+
+
+/* Hover/active text color change */
+.filter-tab:hover,
+.filter-tab.active {
+  color: var(--black-100);
+}
+
+/* Optional micro lift on hover */
+.filter-tab:hover {
+  transform: translateY(-1px);
+}
+
+/* Remove click / mousedown outline and box-shadow */
+.projects-filter button:focus,
+.projects-filter button:active {
+  outline: none;
+  box-shadow: none;
+}
+
+/* Keyboard focus indicator (underline) */
+.filter-tab:focus-visible::after {
+  transform: scaleX(1);
+}
+
+
+// .h-projects-card.hidden {
+//   opacity: 0;
+//   transform: scale(0.9) translateY(20px);
+//   pointer-events: none;
+// }
+
+
+// Projects Card and COntainer
 .h-projects-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -663,6 +763,7 @@ top: 0px;
     box-sizing: border-box;
     z-index: 3;
     position: relative;
+    overflow: hidden;
   }
   
   .h-projects-card{
@@ -775,6 +876,15 @@ top: 0px;
     position: relative;
 }
 
+.projects-filter {
+  gap: 24px;
+
+  button{
+   font-size: 18px;    
+  }
+
+}
+
 }
 @media screen and (max-width: 800px){
 .h-projects-container{
@@ -785,6 +895,17 @@ top: 0px;
     padding: 0px 0px 0px 0px;
   }
 }
+
+@media screen and (max-width: 500px){
+.projects-filter {
+  gap: 20px;
+  padding: 0px 0px 16px 0px;
+  button{
+    font-size: 16px;
+  }
+}}
+
+
 
 
   
