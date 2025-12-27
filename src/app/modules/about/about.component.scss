@@ -108,7 +108,132 @@ flex: none;
     position: relative;
     transform: translate(-50%);
 }
+// MIssion values
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Mission & Vision Banner */
+.mission-vision-banner {
+    background: linear-gradient(rgba(39, 39, 39, 0.9), rgba(0, 0, 0, 0.9)), 
+                url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&q=80&w=2070'); /* Placeholder for Cityscape */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.mv-grid {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.mv-item {
+    flex: 1;
+}
+
+.mv-icon {
+    font-size: 3rem;
+    color: #c5a059; /* Gold accent */
+    margin-bottom: 20px;
+}
+
+.mv-item h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.mv-divider {
+    width: 2px;
+    height: 150px;
+    background-color: rgba(197, 160, 89, 0.5);
+}
+
+/* Core Values Section */
+.core-values-section {
+    padding: 80px 0;
+    background-color: var(--golden-60);
+    text-align: center;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+    position: relative;
+    color: #001f3f;
+}
+
+.section-title::after {
+    content: '';
+    width: 60px;
+    height: 3px;
+    background: #c5a059;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.mv-item img{
+    margin-bottom: 20px;
+    width: 60px;
+}
+
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 30px;
+}
+
+.value-card {
+    background: #fff;
+    padding: 30px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease;
+}
+
+.value-card:hover {
+    transform: translateY(-10px);
+}
+
+.value-card img {
+
+    margin-bottom: 20px;
+    width: 48px;
+}
+
+.value-card h3 {
+    font-size: 22px !important;
+    margin-bottom: 15px;
+    color: #001f3f;
+}
+
+.value-card p {
+    font-size: 0.95rem;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .mv-grid {
+        flex-direction: column;
+    }
+    .mv-divider {
+        display: none;
+    }
+    .mission-vision-banner {
+        padding: 50px 0;
+    }
+}
 // section 3
 
 
