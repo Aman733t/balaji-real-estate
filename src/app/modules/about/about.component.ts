@@ -25,6 +25,6 @@ export class AboutComponent {
   }
 
   moreInfo(){
-    this.router.navigate(['/leaders'])
+    this.router.navigate(['about/leaders'])
   }
 }
