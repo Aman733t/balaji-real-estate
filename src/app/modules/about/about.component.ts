@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
 import { HeaderComponent } from "../../components/header/header.component";
 import { FooterComponent } from "../../components/footer/footer.component";
 import { PackagesModule } from '../../libs/packages/packages.module';
@@ -12,7 +13,7 @@ import { ScrolldownComponent } from "../../components/scrolldown/scrolldown.comp
   styleUrl: './about.component.scss'
 })
 export class AboutComponent {
-  constructor() {
+  constructor( private router: Router,private route: ActivatedRoute) {
 
   }
 
@@ -23,4 +24,7 @@ export class AboutComponent {
     window.scrollTo({ top: scroolValue, behavior: 'smooth' })
   }
 
+  moreInfo(){
+    this.router.navigate(['/leaders'])
+  }
 }

@@ -4,6 +4,7 @@ import { AboutComponent } from './modules/about/about.component';
 import { ContactUsComponent } from './modules/contact-us/contact-us.component';
 import { ProjectsComponent } from './modules/projects/projects.component';
 import { ProjectDetailsComponent } from './modules/project-details/project-details.component';
+import { LeadersComponent } from './modules/leaders/leaders.component';
 
 export const routes: Routes = [
     {
@@ -25,5 +26,9 @@ export const routes: Routes = [
     {
         path:'projects/details/:id',
         component:ProjectDetailsComponent
+    },
+    {
+        path:'leaders',
+        component:LeadersComponent
     }
 ];
