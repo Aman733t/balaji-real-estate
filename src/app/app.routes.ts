@@ -28,7 +28,7 @@ export const routes: Routes = [
         component:ProjectDetailsComponent
     },
     {
-        path:'leaders',
+        path:'about/leaders',
         component:LeadersComponent
     }
 ];
