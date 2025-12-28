@@ -123,7 +123,7 @@ flex: none;
     background-size: cover;
     background-position: center;
     color: #fff;
-    padding: 80px 0;
+    padding: 100px 0;
     text-align: center;
 }
 
@@ -159,7 +159,8 @@ flex: none;
 
 /* Core Values Section */
 .core-values-section {
-    padding: 80px 0;
+padding-top: 100px;
+padding-bottom: 120px;
     background-color: var(--golden-60);
     text-align: center;
 }
@@ -190,7 +191,7 @@ flex: none;
 .values-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 30px;
+    gap: 48px;
 }
 
 .value-card {
@@ -208,7 +209,7 @@ flex: none;
 .value-card img {
 
     margin-bottom: 20px;
-    width: 48px;
+    width: 60px;
 }
 
 .value-card h3 {
@@ -324,6 +325,12 @@ img{
 
 
 
+@media screen and (max-width: 1800px){
+
+    .values-grid{
+        gap: 32px;
+    }
+}
 @media screen and (max-width: 1600px){
 .about-years{
     max-width: 1000px;}
@@ -337,8 +344,21 @@ img{
     }
 
     .quote{
-    padding: 120px 20px 120px 20px;
-}}
+    padding: 120px 20px 120px 20px;}
+
+    .values-grid {
+    gap: 30px;
+}
+.core-values-section {
+padding-top: 80px;
+padding-bottom: 100px;
+}
+
+.value-card img {
+    width: 48px;
+}
+
+}
 
 @media screen and (max-width: 1500px){
 
