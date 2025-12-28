@@ -228,6 +228,18 @@
     width: 60px;
 }
 
+.expertise-card h3 {
+    font-size: 22px !important;
+    margin-bottom: 15px;
+    color: var(--black-90);
+}
+
+.expertise-card p {
+    font-size: 0.95rem;
+    color: var(--black-60);
+    line-height: 140% !important;
+}
+
 .markets {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -291,3 +303,301 @@
 }
 
 
+// Quote 
+
+.legacy-quote-section {
+    width: 100%;
+    background-color: var(--golden-100); // Your Gold 100
+    padding-top: 120px; // 120px Top and Bottom padding
+    padding-bottom: 100px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.quote-content-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+
+    .quote-symbol {
+        font-family: 'Georgia', serif;
+        font-size: 8rem;
+        color: #cccccc; 
+        opacity: 0.3;
+        line-height: 0;
+        margin-bottom: 40px;
+    }
+
+    .balanced-quote {
+        margin: 0;
+        padding: 0;
+        font-size: clamp(1.8rem, 3.5vw, 2.4rem);
+        line-height: 1.6;
+        color: #ffffff; // Solid black for readability on gold
+    }
+
+
+
+    .quote-footer {
+        margin-top: 50px;
+        transition: opacity 1.5s ease 0.8s;
+
+        .accent-line {
+            width: 60px;
+            height: 2px;
+            background: #ffffff;
+            margin: 0 auto 15px;
+        }
+
+        .author-name {
+            text-transform: uppercase;
+            letter-spacing: 5px;
+            color: #ffffff;
+            font-size: 0.9rem;
+            font-weight: 700;
+        }
+    }
+
+}
+
+@media (max-width: 999px) {
+    .legacy-quote-section {
+        padding-top: 100px; // 120px Top and Bottom padding
+    padding-bottom: 80px; 
+    }
+}
+
+
+// 
+
+.market-experience-section {
+  padding-top:100px;
+  padding-bottom:100px;
+  background: #0f0f0f;
+  color: #eaeaea;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+}
+
+.market-experience-section .section-title {
+  text-align: left;
+}
+.market-experience-section .section-title::after {
+  left: 32px;
+}
+
+.left-block,
+.right-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #9c9c9c;
+  margin-bottom: 6px;
+}
+
+.value {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.description {
+  margin-top: 24px;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #cfcfcf;
+  max-width: 90%;
+}
+
+.list-group {
+  margin-bottom: 32px;
+}
+
+.sub-title {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 12px;
+  color: #d6d6d6;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #bfbfbf;
+  position: relative;
+  padding-left: 16px;
+}
+
+ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #c5a059;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .content-grid {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .description {
+    max-width: 100%;
+  }
+}
+
+
+// contact presence
+
+/* SECTION */
+.contact-presence.light {
+  padding-top:100px;
+  padding-bottom:100px;
+  background: var(--golden-60);
+  color: #2a2a2a;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* TITLE */
+.section-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 48px;
+  letter-spacing: 0.3px;
+}
+
+/* CARD */
+.contact-card {
+  border-radius: 18px;
+//   padding: 48px 56px;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 56px;
+
+}
+
+/* CONTACT INFO */
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info-item {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+}
+
+.icon {
+  font-size: 20px;
+  line-height: 1;
+  margin-top: 4px;
+}
+
+.contact-info .label {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #8a8a8a;
+  margin-bottom: 4px;
+}
+
+.contact-info .value {
+  font-size: 17px;
+  font-weight: 500;
+  color: #1f1f1f;
+}
+
+/* SOCIAL */
+.social-info {
+      border-left: 2px solid #bbbbbb;
+  padding-left: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.follow-title {
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #8a8a8a;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.social-links a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #7b5e2f;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 4px;
+}
+
+.social-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background: #7b5e2f;
+  transition: width 0.3s ease;
+}
+
+.social-links a:hover::after {
+  width: 100%;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .contact-card {
+    grid-template-columns: 1fr;
+    padding: 40px 32px;
+  }
+
+  .social-info {
+    border-left: none;
+    padding-left: 0;
+    border-top: 1px solid #e6e4e1;
+    padding-top: 32px;
+  }
+}
