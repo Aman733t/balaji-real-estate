@@ -14,5 +14,16 @@ import { Subscription } from 'rxjs';
   styleUrl: './leaders.component.scss'
 })
 export class LeadersComponent {
+  public info: any = {};
 
+  constructor() {
+
+  }
+
+  scroller() {
+    let offset = -80;
+    let element: any = document.getElementById("c-section-2");
+    let scroolValue = element.getBoundingClientRect().top + window.pageYOffset + offset;
+    window.scrollTo({ top: scroolValue, behavior: 'smooth' })
+  }
 }

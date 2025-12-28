@@ -1,0 +1,227 @@
+
+
+.profile-hero-section{
+    width: 100%;
+    position: relative;
+    background: linear-gradient(135deg, #4c4c4c 15%, #695b3f 70%, #806b44 100%);
+}
+
+.profile-container {
+    
+    width: 100%;
+    position: relative;
+    /* Changed height to min-height to prevent content cutoff on small screens */
+    min-height: 90vh; 
+    display: flex;
+    overflow: hidden; /* Clips any image overflow */
+}
+
+.profile-contain {
+    width: 100%;/* Adjust based on your layout */
+    margin: 0 auto;
+    display: flex;
+}
+
+.profile-hero-flex {
+    display: flex;
+    flex-direction: row; /* Horizontal alignment */
+    align-items: center; /* Vertically centers the text content */
+    justify-content: center;
+    gap: 60px; /* Gap between image and content */
+    width: 100%;
+}
+
+.hero-profile-image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end; /* Pushes the image container to the bottom */
+    position: relative;
+}
+
+.profile-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    max-height: 80vh; /* Prevents image from being taller than the screen */
+    object-fit: contain;
+    bottom: 0px;
+    position: relative;
+    /* Removes the absolute positioning to allow natural flow */
+}
+
+.hero-content {
+    flex: 1;
+    // padding-bottom: 50px; /* Visual balance so text isn't "too" low */
+}
+
+.hero-content h1 {
+    color: white;
+    font-size: clamp(2.5rem, 5vw, 4rem); /* Responsive font size */
+    margin: 0;
+}
+
+.role {
+    color: #e7c67f;
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.badge {
+    display: inline-block;
+    background: #c9a24d;
+    color: #111;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.intro {
+    max-width: 480px;
+    color: rgba(255, 255, 255, 0.9);
+    line-height: 1.6;
+    font-size: 1.1rem;
+}
+
+/* RESPONSIVE BREAKPOINT */
+@media (max-width: 1200px) {
+    .profile-hero-flex {
+        flex-direction: column-reverse; /* Image goes to bottom, Content to top */
+        text-align: center;
+        gap: 30px;
+        padding-top: 120px; /* Space for fixed headers */
+    }
+
+    .hero-content {
+        padding-bottom: 0;
+    }
+
+    .intro {
+        margin: 0 auto;
+    }
+
+    .hero-profile-image {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .profile-img {
+        max-height: 50vh; /* Shorter image on mobile */
+    }
+}
+
+/* RESPONSIVE BREAKPOINT */
+@media (max-width: 600px) {
+    .profile-hero-flex {
+        flex-direction: column-reverse; /* Image goes to bottom, Content to top */
+        text-align: center;
+        gap: 30px;
+        padding-top: 120px; /* Space for fixed headers */
+    }
+
+    .hero-content {
+        padding-bottom: 0;
+    }
+
+    .intro {
+        margin: 0 auto;
+    }
+
+    .hero-profile-image {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .profile-img {
+        max-height: 50vh; /* Shorter image on mobile */
+    }
+}
+
+.section {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  padding: 24px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.markets {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.highlights {
+  list-style: none;
+}
+
+.highlights li {
+  padding: 10px 0;
+  border-bottom: 1px solid #2a2a2a;
+}
+
+.quote {
+  background: #0e0e0e;
+  text-align: center;
+  padding: 80px 20px;
+  font-size: 20px;
+  font-style: italic;
+  color: #c9a24d;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.cta {
+  background: #c9a24d;
+  color: #111;
+  border: none;
+  padding: 14px 28px;
+  font-size: 16px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .markets,
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-content h1 {
+    font-size: 34px;
+  }
+}
+
+
