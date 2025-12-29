@@ -207,6 +207,10 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
+      max-width: 1400px;
+    left: 50%;
+    transform: translate(-50%);
+    position: relative;
 }
 
 .expertise-card {
@@ -316,7 +320,7 @@
 }
 
 .quote-content-wrapper {
-    max-width: 1000px;
+    max-width: 1400px;
     margin: 0 auto;
     text-align: center;
 
@@ -361,6 +365,11 @@
 
 }
 
+@media (max-width: 1600px) {
+    .quote-content-wrapper {
+    max-width: 1000px;
+    }
+}
 @media (max-width: 999px) {
     .legacy-quote-section {
         padding-top: 100px; // 120px Top and Bottom padding
@@ -379,7 +388,7 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0px 0px 0px 0px ;
 }
@@ -461,6 +470,12 @@ ul li::before {
 }
 
 /* Responsive */
+@media (max-width: 1600px) {
+  .container {
+  max-width: 1200px;
+}
+}
+
 @media (max-width: 900px) {
   .content-grid {
     grid-template-columns: 1fr;
@@ -486,7 +501,7 @@ ul li::before {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 0;
-        max-width: 1000px;
+        max-width: 1400px;
         margin: 0 auto;
         background: #ffffff;
         box-shadow: 0 20px 40px rgba(0,0,0,0.05);
@@ -596,6 +611,13 @@ ul li::before {
 
 }
 
+// Mobile Responsive
+@media screen and (max-width: 1600px) {
+    .contact-presence-section {
+    .contact-grid {
+        max-width: 1200px;
+    }
+}}
 // Mobile Responsive
 @media screen and (max-width: 999px) {
     .contact-presence-section .contact-info-panel {
