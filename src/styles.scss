@@ -764,8 +764,16 @@ top: 0px;
     z-index: 3;
     position: relative;
     overflow: hidden;
+    
   }
   
+
+  .projects-container{
+    left: 50%;
+    position: relative;
+    transform: translate(-50%);
+    max-width: 1800px;
+  }
   .h-projects-card{
   padding: 0px;
   border-radius: 2px;

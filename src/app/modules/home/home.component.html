@@ -85,63 +85,68 @@
     <!-- <app-scrolldown class="h-scrolldown" (click)="scroller()"></app-scrolldown> -->
 </div>
 <section class="home-section2 contain" id="h-section2">
-    <div class="section-content">
-        <h5 class="section-heading">A Name You Can Trust</h5>
-        <h2>A Legacy of Trust in Every Square Foot</h2>
-        <h3>Welcome to Balaji Real Estate. For over 30+ years, we have been the bridge between
-            visionary property seekers and their ideal spaces.</h3>
-        <p>Balaji Real Estate is a full-service real estate consultancy specializing in industrial, commercial, and
-            residential properties. Since 2005, we have been helping individuals, businesses, and investors buy, sell,
-            lease, and invest with confidence.
+    <div class="home-company-bio-c">
+        <div class="section-content">
+            <h5 class="section-heading">A Name You Can Trust</h5>
+            <h2>A Legacy of Trust in Every Square Foot</h2>
+            <h3>Welcome to Balaji Real Estate. For over 30+ years, we have been the bridge between
+                visionary property seekers and their ideal spaces.</h3>
+            <p>Balaji Real Estate is a full-service real estate consultancy specializing in industrial, commercial, and
+                residential properties. Since 2005, we have been helping individuals, businesses, and investors buy,
+                sell,
+                lease, and invest with confidence.
 
-            With deep market knowledge, transparent processes, and a client-first approach, we ensure smooth,
-            stress-free transactions across key Indian and international locations. </p>
-    </div>
-    <div class="h-section-2-image">
-        <img src="../../assets/home/home-section-2 image.jpg" alt="">
-        <img src="../../assets/home/dot-pattern.svg" alt="">
+                With deep market knowledge, transparent processes, and a client-first approach, we ensure smooth,
+                stress-free transactions across key Indian and international locations. </p>
+        </div>
+        <div class="h-section-2-image">
+            <img src="../../assets/home/home-section-2 image.jpg" alt="">
+            <img src="../../assets/home/dot-pattern.svg" alt="">
+        </div>
     </div>
 </section>
 
 <!-- Projects -->
 <section class="h-section-3 contain">
-    <div class="section-content">
-        <h5 class="section-heading">Our Projects</h5>
-        <h2>Explore Our Featured Projects</h2>
-        <span class="view-all-button">
-            <div class="button view-all-button"> <a href="/projects" class="animated-button black-outlined">View
-                    All Projects ></a>
-            </div>
-        </span>
-    </div>
+    <div class="projects-container">
+        <div class="section-content">
+            <h5 class="section-heading">Our Projects</h5>
+            <h2>Explore Our Featured Projects</h2>
+            <span class="view-all-button">
+                <div class="button view-all-button"> <a href="/projects" class="animated-button black-outlined">View
+                        All Projects ></a>
+                </div>
+            </span>
+        </div>
 
-    <div class="h-projects-container">
-        <div class="h-projects-card" *ngFor="let project of projectsArr; let i = index">
-            <div class="h-projects-image">
-                <img [src]="project.hero_image" alt="">
-            </div>
-            <div class="h-projects-card-content">
-                <h3>{{project.name}}</h3>
-                <p class="ps">
-                    <span class="properties-developer">
-                        <img src="../../assets/projects/properties-developer.svg" alt="">
-                    </span>
-                    {{project.property_developer}}
-                </p>
-                <p class="ps">
-                    <span class="properties-location">
-                        <img src="../../assets/projects/Properties-location.svg" alt="">
-                    </span>
-                    {{project.property_location}}
-                </p>
-                <p class="ps">
-                    <span class="properties-type">
-                        <img src="../../assets/projects/properties-type.svg" alt="">
-                    </span>
-                    {{project.property_type}}
-                </p>
-                <div class="button project-card-button">
-                    <a href="/projects" class="animated-button black-outlined">View All Details ></a>
+        <div class="h-projects-container">
+            <div class="h-projects-card" *ngFor="let project of projectsArr; let i = index">
+                <div class="h-projects-image">
+                    <img [src]="project.hero_image" alt="">
+                </div>
+                <div class="h-projects-card-content">
+                    <h3>{{project.name}}</h3>
+                    <p class="ps">
+                        <span class="properties-developer">
+                            <img src="../../assets/projects/properties-developer.svg" alt="">
+                        </span>
+                        {{project.property_developer}}
+                    </p>
+                    <p class="ps">
+                        <span class="properties-location">
+                            <img src="../../assets/projects/Properties-location.svg" alt="">
+                        </span>
+                        {{project.property_location}}
+                    </p>
+                    <p class="ps">
+                        <span class="properties-type">
+                            <img src="../../assets/projects/properties-type.svg" alt="">
+                        </span>
+                        {{project.property_type}}
+                    </p>
+                    <div class="button project-card-button">
+                        <a href="/projects" class="animated-button black-outlined">View All Details ></a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -157,6 +162,76 @@
         <h2>Premium Living with Unrivaled Views</h2>
         <div class="button home-hero-button"> <a href="/projects" class="animated-button white-outlined">Explore All
                 Projects</a>
+        </div>
+    </div>
+</section>
+
+<!-- Core Services -->
+<section class="core-services-section-light contain">
+    <div class="container">
+        <div class="section-content">
+            <h5 class="section-heading">Our Specializations</h5>
+            <h2>What We Do Best</h2>
+            <!-- <span class="view-all-button">
+                <div class="button view-all-button"> <a href="/projects" class="animated-button black-outlined">View
+                        All Projects ></a>
+                </div>
+            </span> -->
+        </div>
+        <!-- <div class="section-header">
+            <span class="sub-title">OUR SPECIALIZATIONS</span>
+            <h2 class="main-title">What We Do Best</h2>
+            <div class="accent-line"></div>
+        </div> -->
+
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="icon-container">
+                    <img src="../../assets/home/services-1.jpg" alt="Industrial">
+                </div>
+                <h3>Industrial & Gala</h3>
+                <p>Expert advisory for industrial sheds and galas in Mumbai's prime manufacturing belts.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon-container">
+                    <img src="../../assets/home/services-2.jpg" alt="Commercial">
+                </div>
+                <h3>Commercial Assets</h3>
+                <p>Strategic sourcing for corporate offices and high-street retail investment assets.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon-container">
+                    <img src="../../assets/home/services-3.jpg" alt="Residential">
+                </div>
+                <h3>Residential Sales</h3>
+                <p>Personalized guidance for luxury homes, SRA projects, and redevelopment properties.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon-container">
+                    <img src="../../assets/home/services-4.jpg" alt="Investment">
+                </div>
+                <h3>Investment Advisory</h3>
+                <p>Identifying high-yield opportunities across emerging domestic and Dubai markets.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon-container">
+                    <img src="../../assets/home/services-5.jpg" alt="Channel Partner">
+                </div>
+                <h3>Channel Partner Sales</h3>
+                <p>Direct access to premium inventory from Oberoi Realty, Danube, and more.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="icon-container">
+                    <img src="../../assets/home/services-6.jpg" alt="Support">
+                </div>
+                <h3>Transaction Support</h3>
+                <p>A compliance-first approach ensuring seamless documentation and legal clarity.</p>
+            </div>
         </div>
     </div>
 </section>

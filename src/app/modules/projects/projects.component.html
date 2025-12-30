@@ -14,48 +14,50 @@
 
 <section class="p-projects contain" id="p-projects">
 
-    <!-- Filter Tabs -->
-    <div class="projects-filter">
-        <button class="filter-tab" *ngFor="let tab of projectTabs" (click)="selectTab(tab)"
-            [class.active]="activeTab === tab">
-            {{ tab }}
-        </button>
-    </div>
-    <!-- Project Cards -->
-    <div class="h-projects-container">
-        <div class="h-projects-card" *ngFor="let project of filteredProjects; trackBy: trackById" #card>
+    <div class="projects-container">
+        <!-- Filter Tabs -->
+        <div class="projects-filter">
+            <button class="filter-tab" *ngFor="let tab of projectTabs" (click)="selectTab(tab)"
+                [class.active]="activeTab === tab">
+                {{ tab }}
+            </button>
+        </div>
+        <!-- Project Cards -->
+        <div class="h-projects-container">
+            <div class="h-projects-card" *ngFor="let project of filteredProjects; trackBy: trackById" #card>
 
-            <div class="h-projects-image">
-                <img [src]="project.hero_image" alt="">
-            </div>
-
-            <div class="h-projects-card-content">
-                <h3>{{ project.name }}</h3>
-                <p class="ps">
-                    <span class="properties-developer">
-                        <img src="../../assets/projects/properties-developer.svg" alt="">
-                    </span>
-                    {{ project.property_developer }}
-                </p>
-                <p class="ps">
-                    <span class="properties-location">
-                        <img src="../../assets/projects/Properties-location.svg" alt="">
-                    </span>
-                    {{ project.property_location }}
-                </p>
-                <p class="ps">
-                    <span class="properties-type">
-                        <img src="../../assets/projects/properties-type.svg" alt="">
-                    </span>
-                    {{ project.property_type }}
-                </p>
-                <div class="button project-card-button">
-                    <a class="animated-button black-outlined" (click)="viewAllDetails(project.id)">
-                        View All Details >
-                    </a>
+                <div class="h-projects-image">
+                    <img [src]="project.hero_image" alt="">
                 </div>
-            </div>
 
+                <div class="h-projects-card-content">
+                    <h3>{{ project.name }}</h3>
+                    <p class="ps">
+                        <span class="properties-developer">
+                            <img src="../../assets/projects/properties-developer.svg" alt="">
+                        </span>
+                        {{ project.property_developer }}
+                    </p>
+                    <p class="ps">
+                        <span class="properties-location">
+                            <img src="../../assets/projects/Properties-location.svg" alt="">
+                        </span>
+                        {{ project.property_location }}
+                    </p>
+                    <p class="ps">
+                        <span class="properties-type">
+                            <img src="../../assets/projects/properties-type.svg" alt="">
+                        </span>
+                        {{ project.property_type }}
+                    </p>
+                    <div class="button project-card-button">
+                        <a class="animated-button black-outlined" (click)="viewAllDetails(project.id)">
+                            View All Details >
+                        </a>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 
