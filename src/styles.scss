@@ -580,7 +580,7 @@ a.animated-button.gradient-filled:before {
     height: 100%;
     position: absolute;
     background-color: #000000;
-    opacity: 0.6;
+    opacity: 0.5;
 }
 
 // Home About Section
@@ -851,6 +851,9 @@ top: 0px;
   .projects-filter {
   padding: 0px 0px 24px 0px;
 }
+.built-together-section{
+    height: 84vh !important;
+}
 }
 
 @media screen and (max-width: 1600px){
@@ -882,6 +885,10 @@ top: 0px;
   }
     .projects-filter {
   padding: 0px 0px 16px 0px;
+}
+
+.built-together-section{
+    height: 70vh !important;
 }
 }
 @media screen and (max-width: 999px){
