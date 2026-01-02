@@ -48,7 +48,7 @@ export class ProjectsComponent implements AfterViewInit {
     {
       id: 1,
       name: 'Shahrukhz Danube',
-      hero_image: '../../assets/projects/Shahrukhz Danube thumbnail.jpg',
+      hero_image: '../../assets/projects/Shahrukhz Danube/Shahrukhz Danube thumbnail.jpg',
       property_developer: 'Danube Properties',
       property_location: 'Dubai',
       property_type: 'Commercial'
@@ -56,163 +56,140 @@ export class ProjectsComponent implements AfterViewInit {
     {
       id: 2,
       name: 'Breeze By Danube',
-      hero_image: '../../assets/projects/Breeze by Danube thumbnail.jpg',
+      hero_image: '../../assets/projects/Breeze By Danube/Breeze by Danube thumbnail.jpg',
       property_developer: 'Danube Properties',
       property_location: 'Dubai',
       property_type: 'Residential'
     },
     {
       id: 3,
-      name: 'Fortune One',
-      hero_image: '../../assets/projects/Fortune One Thumbnail.jpg',
-      property_developer: 'Fortune Group',
-      property_location: 'Vapi',
+      name: 'Rajprabha',
+      hero_image: '../../assets/projects/Rajprabha/Rajprabha thumbnail.jpg',
+      property_developer: 'Rajprabha',
+      property_location: 'Vasai',
       property_type: 'Commercial'
     },
     {
       id: 4,
-      name: 'Fortune Landmark',
-      hero_image: '../../assets/projects/Fortune Landmark Thumbnail.jpg',
+      name: 'Fortune One',
+      hero_image: '../../assets/projects/Fortune One/Fortune One Thumbnail.jpg',
       property_developer: 'Fortune Group',
       property_location: 'Vapi',
       property_type: 'Commercial'
     },
     {
       id: 5,
+      name: 'Fortune Landmark',
+      hero_image: '../../assets/projects/Fortune Landmark/Fortune Landmark Thumbnail.jpg',
+      property_developer: 'Fortune Group',
+      property_location: 'Vapi',
+      property_type: 'Commercial'
+    },
+    {
+      id: 6,
       name: 'Fortune Nest',
-      hero_image: '../../assets/projects/Fortune Nest thumbnail.jpg',
+      hero_image: '../../assets/projects/Fortune Nest/Fortune Nest thumbnail.jpg',
       property_developer: 'Fortune Group',
       property_location: 'Valsad',
       property_type: 'Residential'
     },
     {
-      id: 6,
+      id: 7,
       name: 'Fortune Siddhivinayak',
-      hero_image: '../../assets/projects/Fortune Siddhivinayak thumbnail.jpg',
+      hero_image: '../../assets/projects/Fortune Siddhivinayak/Fortune Siddhivinayak thumbnail.jpg',
       property_developer: 'Fortune Group',
       property_location: 'Valsad',
       property_type: 'Commercial'
     },
     {
-      id: 7,
+      id: 8,
       name: 'Ganesh Arcade',
-      hero_image: '../../assets/projects/7. Ganesh Arcade thumbnail.jpg',
+      hero_image: '../../assets/projects/Ganesh Arcade/Ganesh Arcade thumbnail.jpg',
       property_developer: 'Fortune Group',
       property_location: 'Daman & Diu',
       property_type: 'Commercial'
     },
     {
-      id: 8,
+      id: 9,
       name: 'Fortune Skyes',
-      hero_image: '../../assets/projects/8. Fortune Skyes thumbnail.jpg',
+      hero_image: '../../assets/projects/Fortune Skyes/Fortune Skyes thumbnail.jpg',
       property_developer: 'Fortune Group',
       property_location: 'Daman',
       property_type: 'Residential'
     },
     {
-      id: 9,
+      id: 10,
       name: 'Fortune DP Plaza',
-      hero_image: '../../assets/projects/9. Fortune DP Plaza thumbnail.jpg',
+      hero_image: '../../assets/projects/Fortune DP Plaza/Fortune DP Plaza thumbnail.jpg',
       property_developer: 'Fortune Group',
       property_location: 'Daman',
       property_type: 'Commercial'
     },
     {
-      id: 10,
+      id: 11,
       name: 'Fortune Chandranagari',
-      hero_image: '../../assets/projects/10. Fortune Chandranagari Vapi thumbnail.jpg',
+      hero_image: '../../assets/projects/Fortune Chandranagari/Fortune Chandranagari thumbnail.jpg',
       property_developer: 'Fortune Group',
       property_location: 'Vapi',
       property_type: 'Residential'
     },
     {
-      id: 11,
+      id: 12,
       name: 'Green Ville',
-      hero_image: '../../assets/projects/11. Green Ville Fortune Group thumbnail.jpg',
+      hero_image: '../../assets/projects/Green Ville/Green Ville thumbnail.jpg',
       property_developer: 'Fortune Group',
       property_location: 'Daman',
       property_type: 'Residential'
     },
     {
-      id: 12,
+      id: 13,
       name: 'Fortune Lake Home',
-      hero_image: '../../assets/projects/12. Fortune Lake Home thumbnail.jpg',
+      hero_image: '../../assets/projects/Fortune Lake Home/Fortune Lake Home thumbnail.jpg',
       property_developer: 'Fortune Group',
       property_location: 'Umargaon Valsad',
       property_type: 'Residential'
     },
     {
-      id: 13,
-      name: 'Sungate Infra Bunglows',
-      hero_image: '../../assets/projects/13. Sungate Infra Bunglows thumbnail.jpg',
-      property_developer: 'Fortune Group',
-      property_location: 'Vapi',
-      property_type: 'Residential'
-    },
-    {
       id: 14,
-      name: 'Sungate Apartments',
-      hero_image: '../../assets/projects/14. Sungate Apartments thumbnail.jpg',
+      name: 'Sungate Infra Bunglows',
+      hero_image: '../../assets/projects/Sungate Infra Bunglows/Sungate Infra Bunglows thumbnail.jpg',
       property_developer: 'Fortune Group',
       property_location: 'Vapi',
       property_type: 'Residential'
     },
     {
       id: 15,
-      name: 'Gauri Excellency',
-      hero_image: '../../assets/projects/15. Gauri Excellency thumbnail.jpg',
-      property_developer: 'Gauri Group',
-      property_location: 'Kandivali West',
+      name: 'Sungate Apartments',
+      hero_image: '../../assets/projects/Sungate Apartments/Sungate Apartments thumbnail.jpg',
+      property_developer: 'Fortune Group',
+      property_location: 'Vapi',
       property_type: 'Residential'
     },
     {
       id: 16,
-      name: 'Green Ville by Emaar',
-      hero_image: '../../assets/projects/16. Green Ville by Emaar thumbnail.jpg',
-      property_developer: 'Emaar Group',
-      property_location: 'Dubai',
+      name: 'Ruby',
+      hero_image: '../../assets/projects/Ruby/Ruby thumbnail.jpg',
+      property_developer: 'Shrisai Akar Civilinfra',
+      property_location: 'Borivali',
       property_type: 'Residential'
     },
     {
       id: 17,
-      name: 'Avena',
-      hero_image: '../../assets/projects/17. Avena thumbnail.jpg',
-      property_developer: 'Emaar Group',
-      property_location: 'Dubai',
+      name: 'Sigma Amber',
+      hero_image: '../../assets/projects/Sigma Amber/Sigma Amber thumbnail.jpg',
+      property_developer: 'Sigma',
+      property_location: 'Charkop',
       property_type: 'Residential'
     },
-    {
-      id: 18,
-      name: 'Velora 2',
-      hero_image: '../../assets/projects/18. Velora 2 thumbnail 2.jpg',
-      property_developer: 'Emaar Group',
-      property_location: 'Dubai',
-      property_type: 'Residential'
-    },
-    {
-      id: 19,
-      name: 'Greenridge',
-      hero_image: '../../assets/projects/19. Greenridge thumbnail 1.jpg',
-      property_developer: 'Emaar Group',
-      property_location: 'Dubai',
-      property_type: 'Residential'
-    },
-    {
-      id: 20,
-      name: 'Vida Residences',
-      hero_image: '../../assets/projects/20. Vida Residences thumbnail.jpg',
-      property_developer: 'Emaar Group',
-      property_location: 'Dubai',
-      property_type: 'Residential'
-    },
-    {
-      id: 21,
-      name: 'Address The Bay Summary',
-      hero_image: '../../assets/projects/21. Address-The Bay Summary thumbnail 1.jpg',
-      property_developer: 'Emaar Group',
-      property_location: 'Dubai',
-      property_type: 'Commercial'
-    }
+    // {
+    //   id: 18,
+    //   name: 'Gauri Excellency',
+    //   hero_image: '../../assets/projects/Gauri Excellency thumbnail.jpg',
+    //   property_developer: 'Gauri Group',
+    //   property_location: 'Kandivali West',
+    //   property_type: 'Residential'
+    // },
+
   ];
 
   constructor(

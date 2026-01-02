@@ -17,46 +17,51 @@ export class HomeComponent {
     {
       id: 1,
       name: 'Shahrukhz Danube',
-      hero_image: '../../assets/projects/Shahrukhz Danube thumbnail.jpg',
+      hero_image: '../../assets/projects/Shahrukhz Danube/Shahrukhz Danube thumbnail.jpg',
       property_developer: 'Danube Properties',
       property_location: 'Dubai',
       property_type: 'Commercial'
-    }, {
+    },
+    {
       id: 2,
       name: 'Breeze By Danube',
-      hero_image: '../../assets/projects/Breeze by Danube thumbnail.jpg',
+      hero_image: '../../assets/projects/Breeze By Danube/Breeze by Danube thumbnail.jpg',
       property_developer: 'Danube Properties',
       property_location: 'Dubai',
       property_type: 'Residential'
-    }, {
+    },
+    {
       id: 3,
-      name: 'Fortune One',
-      hero_image: '../../assets/projects/Fortune One Thumbnail.jpg',
-      property_developer: 'Fortune Group',
-      property_location: 'Vapi',
+      name: 'Rajprabha',
+      hero_image: '../../assets/projects/Rajprabha/Rajprabha thumbnail.jpg',
+      property_developer: 'Rajprabha',
+      property_location: 'Vasai',
       property_type: 'Commercial'
-    }, {
+    },
+    {
       id: 4,
-      name: 'Fortune Landmark',
-      hero_image: '../../assets/projects/Fortune Landmark Thumbnail.jpg',
+      name: 'Fortune One',
+      hero_image: '../../assets/projects/Fortune One/Fortune One Thumbnail.jpg',
       property_developer: 'Fortune Group',
       property_location: 'Vapi',
       property_type: 'Commercial'
-    }, {
+    },
+    {
       id: 5,
+      name: 'Fortune Landmark',
+      hero_image: '../../assets/projects/Fortune Landmark/Fortune Landmark Thumbnail.jpg',
+      property_developer: 'Fortune Group',
+      property_location: 'Vapi',
+      property_type: 'Commercial'
+    },
+    {
+      id: 6,
       name: 'Fortune Nest',
-      hero_image: '../../assets/projects/Fortune Nest thumbnail.jpg',
+      hero_image: '../../assets/projects/Fortune Nest/Fortune Nest thumbnail.jpg',
       property_developer: 'Fortune Group',
       property_location: 'Valsad',
       property_type: 'Residential'
-    }, {
-      id: 6,
-      name: 'Fortune Siddhivinayak',
-      hero_image: '../../assets/projects/Fortune Siddhivinayak thumbnail.jpg',
-      property_developer: 'Fortune Group',
-      property_location: 'Valsad',
-      property_type: 'Commercial'
-    }
+    },
   ];
 
   constructor() {
