@@ -317,6 +317,16 @@ img{
 
     .team-member-content{
         padding: 32px 0px 0px 0px;
+        .title{
+            padding: 0px 0px 8px 0px;
+            margin: 0px 0px 0px 0px;
+            font-weight: 600;
+            color: var(--black-70);
+        }
+
+        .intro{
+            color: var(--black-60);
+        }
     }
 }
 
