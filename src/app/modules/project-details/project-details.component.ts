@@ -5,23 +5,34 @@ import { HeaderComponent } from "../../components/header/header.component";
 import { FooterComponent } from "../../components/footer/footer.component";
 import { ScrolldownComponent } from '../../components/scrolldown/scrolldown.component';
 import { Subscription } from 'rxjs';
+import { ApiService } from '../../services/api.service';
 
 @Component({
   selector: 'app-project-details',
   standalone: true,
   imports: [PackagesModule, HeaderComponent, FooterComponent, ScrolldownComponent],
+  providers:[ApiService],
   templateUrl: './project-details.component.html',
   styleUrl: './project-details.component.scss'
 })
 export class ProjectDetailsComponent {
   public productId: string | null = null;
   public info: any = {};
+  public projectInfo:any = {};
   private routeSub: Subscription | undefined;
-  constructor(private router: Router, private route: ActivatedRoute) { }
+
+  constructor(private router: Router, private route: ActivatedRoute, private api:ApiService) { }
 
   ngOnInit() {
     this.routeSub = this.route.params.subscribe((params: any) => {
-      console.log(params);
+      if(params['id']){
+        let projectArr = this.api.getProjectMetaData();
+        projectArr.forEach((project:any)=>{
+          if(project['id'] == params['id']){
+            this.projectInfo = project
+          }
+        })
+      }
     });
   }
 

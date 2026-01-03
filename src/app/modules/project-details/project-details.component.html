@@ -1,13 +1,13 @@
 <app-header></app-header>
 <section class="page-hero-section">
     <div class="page-hero-image">
-        <!-- <!-- Hero Image Follow - "Project Name + hero"  --> -->
+        <!-- Hero Image Follow - "Project Name + hero"  --> 
 
-        <img src="../../assets/projects/Shahrukhz Danube/Shahrukhz Danube hero.jpg" alt="">
+        <img [src]="projectInfo['hero_image']" alt="">
     </div>
     <div class="hero-content text-shadow">
         <!-- <h3>- Projects -</h3> -->
-        <h2>Shahrukhz Danube </h2>
+        <h2>{{projectInfo['name']}}</h2>
     </div>
     <app-scrolldown class="h-scrolldown page-scrolldown" (click)="scroller()"></app-scrolldown>
 </section>
@@ -15,13 +15,25 @@
 <section class="d-section-2 contain" id="d-section-2">
 
     <div class="project-details-content">
-        <h2>Shahrukhz Danube </h2>
-        <p class="ps"> <span class="properties-developer"> <img src="../../assets/projects/properties-developer.svg"
-                    alt=""></span>Danube Properties</p>
-        <p class="ps"> <span class="properties-location"> <img src="../../assets/projects/Properties-location.svg"
-                    alt=""></span>Dubai</p>
-        <p class="ps"> <span class="properties-type"> <img src="../../assets/projects/properties-type.svg"
-                    alt=""></span>Commercial</p>
+        <h2>{{projectInfo['name']}}</h2>
+        <p class="ps"> 
+            <span class="properties-developer"> 
+                <img src="../../assets/projects/properties-developer.svg" alt="">
+            </span>
+            {{projectInfo['property_developer']}}
+        </p>
+        <p class="ps">
+            <span class="properties-location">
+                <img src="../../assets/projects/Properties-location.svg" alt="">
+            </span>
+            {{projectInfo['property_location']}}
+        </p>
+        <p class="ps">
+            <span class="properties-type">
+                <img src="../../assets/projects/properties-type.svg" alt="">
+            </span>
+            {{projectInfo['property_type']}}
+        </p>
         <p class="para">
             Rising on the iconic Sheikh Zayed Road, this premium
             55-storey office tower offers unmatched visibility
@@ -35,26 +47,40 @@
             you work.
         </p>
         <div class="enq-brochure-button">
-            <div class="button enquire-now"> <a href="/contact" class="animated-button black-outlined"><span> <img
-                            src="../../assets/projects/contact.svg" alt=""></span>Enquire Now</a>
+            <div class="button enquire-now">
+                <a href="/contact" class="animated-button black-outlined">
+                    <span>
+                        <img src="../../assets/projects/contact.svg" alt="">
+                    </span>
+                    Enquire Now
+                </a>
             </div>
             <div class="button download-brochure">
-                <a href="/contact" class="animated-button black-outlined"><span> <img
-                            src="../../assets/projects/download.svg" alt=""></span>Brochure</a>
+                <a href="/contact" class="animated-button black-outlined">
+                    <span>
+                        <img src="../../assets/projects/download.svg" alt="">
+                    </span>
+                    Brochure
+                </a>
             </div>
         </div>
 
     </div>
     <!-- Here Image Name Follow - "Project Name + thumbnail" -->
     <div class="image-container">
-        <img src="../../assets/projects/Shahrukhz Danube/Shahrukhz Danube thumbnail.jpg" alt="">
+        <img [src]="projectInfo['thumbnail_image']" alt="">
     </div>
 </section>
 
 <!-- Project Images Section -->
 
 <Section class="p-image-section">
-    <div class="p-image-container">
+    <ng-container *ngFor="let project of projectInfo['project_image']">
+        <div class="p-image-container">
+            <img [src]="project" alt="">
+        </div>
+    </ng-container>
+    <!-- <div class="p-image-container">
         <img src="../../assets/projects/Shahrukhz Danube/SHARUKHZ Brochure - FINAL_Page_01.jpg" alt="">
     </div>
     <div class="p-image-container">
@@ -143,7 +169,7 @@
     </div>
     <div class="p-image-container">
         <img src="../../assets/projects/Shahrukhz Danube/SHARUKHZ Brochure - FINAL_Page_30.jpg" alt="">
-    </div>
+    </div> -->
 
 </Section>
 
