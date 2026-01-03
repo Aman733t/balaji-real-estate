@@ -5,18 +5,16 @@
             <div class="profile-hero-flex">
 
                 <div class="hero-profile-image">
-                    <img src="../../../assets/about/profile/anil-dua.png" alt="Anil Dua" class="profile-img" />
+                    <img [src]="leaderInfo['hero_image']" [alt]="leaderInfo['alt']" class="profile-img" />
                 </div>
 
                 <div class="hero-content">
-                    <h1>Anil Dua</h1>
-                    <h4 class="role">Founder & Senior Real Estate Consultant</h4>
-                    <span class="badge">25+ Years of Industry Experience</span>
+                    <h1>{{leaderInfo['name']}}</h1>
+                    <h4 class="role">{{leaderInfo['role']}}</h4>
+                    <span class="badge">{{leaderInfo['badge']}}</span>
 
                     <p class="intro">
-                        A seasoned real estate professional specializing in residential,
-                        commercial, SRA, plots, and redevelopment properties across Mumbai and
-                        emerging markets.
+                        {{leaderInfo['intro']}}
                     </p>
                 </div>
 
@@ -31,20 +29,8 @@
 <section class="professional-overview-section contain">
     <div class="section-container">
         <h2 class="section-title white">Professional Overview</h2>
-        <p class="white">
-            With over 25 years of experience, Anil Dua is a trusted real estate consultant specializing in industrial
-            and mixed-use property advisory. Based in the Mumbai region, he is particularly known for his expertise in
-            industrial gala properties in Vasai and Kandivali.
-
-            His approach combines strong market knowledge with a structured, execution-focused process.
-
-            <br>
-            <br>
-            Anil Dua began his professional journey in real estate in 2005 and has since worked closely with business
-            owners, investors, and developers. Backed by a capable professional team, he manages transactions with
-            attention to detail, regulatory clarity, and commercial practicality.
-
-            His strength lies in identifying properties that align operational needs with long-term growth.
+        <p class="white preserve-text">
+            {{professionalOverview(leaderInfo['professional_overview'])}}
         </p>
     </div>
 </section>
@@ -149,7 +135,7 @@
 
         <div class="quote-footer">
             <div class="accent-line"></div>
-            <p class="author-name">Anil Dua</p>
+            <p class="author-name">{{leaderInfo['name']}}</p>
         </div>
     </div>
 </section>
@@ -217,7 +203,7 @@
                     <div class="icon-box icon-box-1"><img src="../../../assets/contact/address.svg" alt=""></div>
                     <div class="text-content">
                         <span class="label">LOCATION</span>
-                        <p class="value">Mumbai Region</p>
+                        <p class="value">{{leaderInfo['contact_info']['location']}}</p>
                     </div>
                 </div>
 
@@ -225,7 +211,7 @@
                     <div class="icon-box icon-box-2"><img src="../../../assets/contact/call-us.svg" alt=""></div>
                     <div class="text-content">
                         <span class="label">PHONE</span>
-                        <p class="value">+91 93240 88437</p>
+                        <p class="value">{{leaderInfo['contact_info']['phone_number']}}</p>
                     </div>
                 </div>
 
@@ -233,7 +219,7 @@
                     <div class="icon-box icon-box-3"><img src="../../../assets/contact/email-us.svg" alt=""></div>
                     <div class="text-content">
                         <span class="label">EMAIL</span>
-                        <p class="value small-email">dua_realestate_anil&#64;yahoo.co.in</p>
+                        <p class="value small-email">{{leaderInfo['contact_info']['email_address']}}</p>
                     </div>
                 </div>
             </div>

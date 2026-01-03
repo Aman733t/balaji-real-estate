@@ -24,7 +24,7 @@ export class AboutComponent {
     window.scrollTo({ top: scroolValue, behavior: 'smooth' })
   }
 
-  moreInfo(){
-    this.router.navigate(['about/leaders'])
+  moreInfo(id:any){
+    this.router.navigate(['about/leaders',id])
   }
 }

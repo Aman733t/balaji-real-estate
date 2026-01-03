@@ -24,6 +24,7 @@ export class ProjectDetailsComponent {
   constructor(private router: Router, private route: ActivatedRoute, private api:ApiService) { }
 
   ngOnInit() {
+    this.topView();
     this.routeSub = this.route.params.subscribe((params: any) => {
       if(params['id']){
         let projectArr = this.api.getProjectMetaData();
@@ -33,6 +34,14 @@ export class ProjectDetailsComponent {
           }
         })
       }
+    });
+  }
+
+  topView(){
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: 'auto'
     });
   }
 

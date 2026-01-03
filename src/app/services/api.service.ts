@@ -384,4 +384,61 @@ export class ApiService {
     ]
   }
 
+  getLeadersMetaData(){
+    return [
+      {
+        id:1,
+        hero_image:'../../../assets/about/profile/anil-rana.png',
+        alt:'Anil Rana',
+        name:'Anil Rana',
+        role:'Founder & Senior Real Estate Consultant',
+        badge:'30+ Years of Industry Experience',
+        intro:'A seasoned real estate professional specializing in residential, commercial, SRA, plots, and redevelopment properties across Mumbai and emerging markets.',
+        professional_overview:`With over 30+ years of experience, Anil Rana is a trusted real estate consultant specializing in industrial
+            and mixed-use property advisory. Based in the Mumbai region, he is particularly known for his expertise in
+            industrial gala properties in Vasai and Kandivali.
+
+            His approach combines strong market knowledge with a structured, execution-focused process.
+
+            Anil Rana began his professional journey in real estate in 1994 and has since worked closely with business
+            owners, investors, and developers. Backed by a capable professional team, he manages transactions with
+            attention to detail, regulatory clarity, and commercial practicality.
+
+            His strength lies in identifying properties that align operational needs with long-term growth.`,
+        contact_info:{
+          "location":"Mumbai Region",
+          "phone_number":"+91 98212 94212",
+          "whatsapp_number":"",
+          "email_address":"anilrana09@gmail.com"
+        }
+      },
+      {
+        id:2,
+        hero_image:'../../../assets/about/profile/anil-dua.png',
+        alt:'Anil Dua',
+        name:'Anil Dua',
+        role:'Founder & Senior Real Estate Consultant',
+        badge:'25+ Years of Industry Experience',
+        intro:'A seasoned real estate professional specializing in residential, commercial, SRA, plots, and redevelopment properties across Mumbai and emerging markets.',
+        professional_overview:`With over 25 years of experience, Anil Dua is a trusted real estate consultant specializing in industrial
+            and mixed-use property advisory. Based in the Mumbai region, he is particularly known for his expertise in
+            industrial gala properties in Vasai and Kandivali.
+
+            His approach combines strong market knowledge with a structured, execution-focused process.
+
+            Anil Dua began his professional journey in real estate in 2005 and has since worked closely with business
+            owners, investors, and developers. Backed by a capable professional team, he manages transactions with
+            attention to detail, regulatory clarity, and commercial practicality.
+
+            His strength lies in identifying properties that align operational needs with long-term growth.`,
+        contact_info:{
+          "location":"Mumbai Region",
+          "phone_number":"+91 93240 88437",
+          "whatsapp_number":"",
+          "email_address":"dua_realestate_anil@yahoo.co.in"
+        }
+      }
+    ]
+  }
+
 }

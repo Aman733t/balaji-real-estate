@@ -17,7 +17,7 @@ export class HomeComponent {
     {
       id: 1,
       name: 'Shahrukhz Danube',
-      hero_image: '../../assets/projects/Shahrukhz Danube/Shahrukhz Danube thumbnail.jpg',
+      hero_image: '../../assets/projects/shahrukhz_danube/shahrukhz_danube_thumbnail.jpg',
       property_developer: 'Danube Properties',
       property_location: 'Dubai',
       property_type: 'Commercial'
@@ -25,7 +25,7 @@ export class HomeComponent {
     {
       id: 2,
       name: 'Breeze By Danube',
-      hero_image: '../../assets/projects/Breeze By Danube/Breeze by Danube thumbnail.jpg',
+      hero_image: '../../assets/projects/breeze_by_danube/breeze_by_danube_thumbnail.jpg',
       property_developer: 'Danube Properties',
       property_location: 'Dubai',
       property_type: 'Residential'
@@ -33,7 +33,7 @@ export class HomeComponent {
     {
       id: 3,
       name: 'Rajprabha',
-      hero_image: '../../assets/projects/Rajprabha/Rajprabha thumbnail.jpg',
+      hero_image: '../../assets/projects/rajprabha/rajprabha_thumbnail.jpg',
       property_developer: 'Rajprabha',
       property_location: 'Vasai',
       property_type: 'Commercial'
@@ -41,7 +41,7 @@ export class HomeComponent {
     {
       id: 4,
       name: 'Fortune One',
-      hero_image: '../../assets/projects/Fortune One/Fortune One Thumbnail.jpg',
+      hero_image: '../../assets/projects/fortune_one/fortune_one_thumbnail.jpg',
       property_developer: 'Fortune Group',
       property_location: 'Vapi',
       property_type: 'Commercial'
@@ -49,7 +49,7 @@ export class HomeComponent {
     {
       id: 5,
       name: 'Fortune Landmark',
-      hero_image: '../../assets/projects/Fortune Landmark/Fortune Landmark Thumbnail.jpg',
+      hero_image: '../../assets/projects/fortune_landmark/fortune_landmark_thumbnail.jpg',
       property_developer: 'Fortune Group',
       property_location: 'Vapi',
       property_type: 'Commercial'
@@ -57,7 +57,7 @@ export class HomeComponent {
     {
       id: 6,
       name: 'Fortune Nest',
-      hero_image: '../../assets/projects/Fortune Nest/Fortune Nest thumbnail.jpg',
+      hero_image: '../../assets/projects/fortune_nest/fortune_nest_thumbnail.jpg',
       property_developer: 'Fortune Group',
       property_location: 'Valsad',
       property_type: 'Residential'
