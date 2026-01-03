@@ -8,7 +8,8 @@ import { Subject, tap } from 'rxjs';
 
 export class ApiService {
   public headers: HttpHeaders = new HttpHeaders()
-  public baseUrl: string = 'https://salesfactory.in/track/';
+  // public baseUrl: string = 'https://salesfactory.in/track/';
+  public baseUrl:string = 'http://localhost:9002/track/'
   private _refreshNeeded = new Subject<void>();
   private biz_id = '';
   
@@ -494,6 +495,7 @@ export class ApiService {
   }
 
   trackInquiry(info: any) {
+    info['inquiry_platform'] = 'web';
     return this.http.post(this.baseUrl + 'trackInquiry', info, { headers: this.getHeaders() })
   }
 
