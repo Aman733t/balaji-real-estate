@@ -1,7 +1,7 @@
 <app-header></app-header>
 <section class="page-hero-section">
     <div class="page-hero-image">
-        <!-- Hero Image Follow - "Project Name + hero"  --> 
+        <!-- Hero Image Follow - "Project Name + hero"  -->
 
         <img [src]="projectInfo['hero_image']" alt="">
     </div>
@@ -16,8 +16,8 @@
 
     <div class="project-details-content">
         <h2>{{projectInfo['name']}}</h2>
-        <p class="ps"> 
-            <span class="properties-developer"> 
+        <p class="ps">
+            <span class="properties-developer">
                 <img src="../../assets/projects/properties-developer.svg" alt="">
             </span>
             {{projectInfo['property_developer']}}
@@ -34,17 +34,8 @@
             </span>
             {{projectInfo['property_type']}}
         </p>
-        <p class="para">
-            Rising on the iconic Sheikh Zayed Road, this premium
-            55-storey office tower offers unmatched visibility
-            and seamless access in the heart of Dubai.
-            <br> Inspired by the self-made journey of Shahrukh Khan,
-            Shahrukhz is a tribute to those who script their
-            own destiny — a place for business leaders, founders and
-            visionaries to build more than companies, to build empires.
-            <br>With world-class amenities curated for productivity,
-            prestige and wellbeing…every detail elevates the way
-            you work.
+        <p class="para">{{projectInfo['property_intro_content']}}
+
         </p>
         <div class="enq-brochure-button">
             <div class="button enquire-now">
