@@ -84,9 +84,7 @@
                 </div>
 
                 <p class="description">
-                    He continues to explore growth opportunities across
-                    high-potential domestic and international markets, aligning
-                    client investments with future-ready locations.
+                    {{leaderInfo['market_presence']['description']}}
                 </p>
             </div>
 
@@ -97,14 +95,8 @@
                 <div class="list-group">
                     <p class="sub-title">Select Clients & Associations</p>
                     <ul>
-                        <li>IPCA Company</li>
-                        <li>Flair Pen, Rajson Pen</li>
-                        <li>Reylite Switches, Parcos Switches</li>
-                        <li>Amron Switches, Music Centre</li>
-                        <li>Rajprabha (Vasai), Nawany Construction (Vasai)</li>
-                        <li>
-                            Channel Partner: Auris Serenity, Oberoi Realty,
-                            Danube (Dubai)
+                        <li *ngFor="let clients of leaderInfo['clients_associations']">
+                            {{clients}}
                         </li>
                     </ul>
                 </div>

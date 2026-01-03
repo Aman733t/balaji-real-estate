@@ -77,5 +77,17 @@ export class ProjectDetailsComponent {
       item.addEventListener('click', toggleAccordion);
     });
   }
+
+    sendInquiryInfo() {
+    if(Object.keys(this.info).length > 0){
+      this.api.trackInquiry(this.info).subscribe((response:any)=>{
+        if(response['code'] == 1){
+          this.info = {}
+        }
+      })
+    }
+  }
+
+
 }
 

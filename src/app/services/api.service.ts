@@ -8,13 +8,28 @@ import { Subject, tap } from 'rxjs';
 
 export class ApiService {
   public headers: HttpHeaders = new HttpHeaders()
-  public baseUrl: string = 'http://localhost:9005/api/';
+  public baseUrl: string = 'https://salesfactory.in/track/';
   private _refreshNeeded = new Subject<void>();
-
-  constructor(private http: HttpClient) { }
+  private biz_id = '';
+  
+  constructor(private http: HttpClient) { 
+   this.http.get('assets/projects.json').subscribe((data:any) => {
+      this.biz_id = data['business']
+    }); 
+  }
 
   refreshNeeded() {
     return this._refreshNeeded;
+  }
+
+  getHeaders() {
+    let headers: HttpHeaders = new HttpHeaders();
+    let biz_id = this.biz_id;
+    headers = headers.append('Cache-Control', 'no-cache');
+    headers = headers.append('Pragma', 'no-cache');
+    headers = headers.append('Expires', '0');
+    headers = headers.append('biz-id', biz_id);
+    return headers;
   }
 
   getProjectMetaData() {
@@ -427,7 +442,18 @@ export class ApiService {
           "phone_number": "+91 98212 94212",
           "whatsapp_number": "",
           "email_address": "anilrana09@gmail.com"
-        }
+        },
+        market_presence: {
+          "description": "Anil Rana continues to explore growth opportunities across high-potential domestic and international markets, aligning client investments with future-ready locations."
+        },
+        clients_associations: [
+          "IPCA Company",
+          "Fairpen, Rajson Pen",
+          "Reylite Switches, Parcos Switches",
+          "Amron Switches, Music Centre",
+          "Rajprabha (Vasai), Nawane Construction (Vasai)",
+          "Channel Partner: Auris Serenity, Oberoi Realty, Danube (Dubai)"
+        ]
       },
       {
         id: 2,
@@ -451,9 +477,24 @@ export class ApiService {
           "phone_number": "+91 93240 88437",
           "whatsapp_number": "",
           "email_address": "dua_realestate_anil@yahoo.co.in"
-        }
+        },
+        market_presence: {
+          "description": "Anil Dua continues to expand his advisory reach into emerging real estate corridors, offering clients access to new opportunities beyond traditional markets."
+        },
+        clients_associations: [
+          "IPCA Company",
+          "Rana & Sons, Fairpen, Rajson Pen",
+          "Reylite Switches, Parcos Switches",
+          "Amron Switches, Music Centre",
+          "Rajprabha (Vasai), Nawane Construction (Vasai)",
+          "Channel Partner: Auris Serenity, Oberoi Realty, Danube"
+        ]
       }
     ]
+  }
+
+  trackInquiry(info: any) {
+    return this.http.post(this.baseUrl + 'trackInquiry', info, { headers: this.getHeaders() })
   }
 
 }

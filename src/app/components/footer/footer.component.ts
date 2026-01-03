@@ -10,10 +10,10 @@ import { PackagesModule } from '../../libs/packages/packages.module';
 })
 export class FooterComponent {
   public socialLinks: any = {
-    'instagram': 'https://www.instagram.com/officialdeecreations/',
-    'youtube': 'https://www.youtube.com/@deecreationsofficial',
-    'linkedin': 'https://www.linkedin.com/in/deecreationsofficial/',
-    'facebook': 'https://www.facebook.com/officialdeecreations'
+    'instagram': 'https://www.instagram.com/balajireal14/',
+    'youtube': 'https://www.youtube.com/',
+    'linkedin': 'https://www.linkedin.com/in/',
+    'facebook': 'https://www.facebook.com/profile.php?id=61584399387989'
   }
 
   constructor() {
