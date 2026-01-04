@@ -96,7 +96,17 @@ export class ApiService {
         property_location: 'Dubai',
         property_type: 'Residential',
         brochure_download: "",
-        property_intro_content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+        property_intro_content: `Breez by Danube is a premium 60-floor waterfront residential tower in Dubai Maritime City. Inspired by seaside serenity and elevated living, Breez offers Fully Furnished Oceanfront Homes with over 40+ resort-style amenities for a lifestyle that flows as effortlessly as its name.
+
+More than just a residence, Breez is your invitation to experience a life where the city’s pulse meets the calm of the sea.
+
+WHY DUBAI MARITIME CITY?
+• 2 Mins Port Rashid Boat Station
+• 3 Mins Dubai Cruise Terminal 2
+• 8 Mins Gold Souk & Jumeirah Beach
+• 8 Mins Dubai World Trade Center
+• 10 Mins Burj Khalifa
+• 15 Mins Dubai International Airport`,
         faq: [],
         project_image: [
           "../../assets/projects/breeze_by_danube/breeze_by_danube_page_02.jpg",
@@ -137,7 +147,7 @@ export class ApiService {
         property_location: 'Vasai',
         property_type: 'Commercial',
         brochure_download: "",
-        property_intro_content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+        property_intro_content: `Rajprabha Developers Pvt Ltd professional in the real estate sector. They are a recognized builder in the city. With a full-fledged team of construction experts they have successfully constructed and rebuild many properties in the real estate sector. Whether it is a commercial property or residential building, they render equal services at pocket-friendly market rates.`,
         faq: [],
         project_image: []
       },
@@ -150,7 +160,12 @@ export class ApiService {
         property_location: 'Vapi',
         property_type: 'Commercial',
         brochure_download: "",
-        property_intro_content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+        property_intro_content: `Fortune One is a premier commercial landmark designed to redefine the business landscape of Vapi. Strategically located near the V.I.A. road, it offers high-visibility retail spaces and modern offices.
+
+What you need to know:
+• Business Hub: Designed with a grand glass facade for maximum brand visibility.
+• Connectivity: Just 10 minutes from Vapi Railway Station and 5 minutes from NH-48.
+• Best For: Investors looking for high rental yields from corporate tenants.`,
         faq: [],
         project_image: [
           "../../assets/projects/fortune_one/fortune_one_1.png",
@@ -167,7 +182,12 @@ export class ApiService {
         property_location: 'Vapi',
         property_type: 'Commercial',
         brochure_download: "",
-        property_intro_content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+        property_intro_content: `Fortune Landmark stands as a completed commercial hub in the GIDC Phase 2 area of Vapi. It provides ready-to-move office and retail units for immediate business operations.
+
+What you need to know:
+• Immediate Possession: Perfect for businesses that need to start today.
+• Footfall: Located in a high-density area with a steady stream of customers.
+• Facilities: Ample basement parking and 24/7 security management.`,
         faq: [],
         project_image: [
           "../../assets/projects/fortune_landmark/fortune_landmark_1.webp",
@@ -183,7 +203,12 @@ export class ApiService {
         property_location: 'Valsad',
         property_type: 'Residential',
         brochure_download: "",
-        property_intro_content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+        property_intro_content: `Fortune Nest offers a serene residential experience in Valsad, focusing on modern row houses and apartments with a gated community feel.
+
+What you need to know:
+• Lifestyle: Includes a dedicated children’s play area and landscaped gardens.
+• Security: Fully fenced perimeter with CCTV surveillance.
+• Proximity: Located near top-tier schools like Vallabh Ashram.`,
         faq: [],
         project_image: [
           "../../assets/projects/fortune_nest/fortune_nest_9.jpg",
@@ -201,7 +226,12 @@ export class ApiService {
         property_location: 'Valsad',
         property_type: 'Commercial',
         brochure_download: "",
-        property_intro_content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+        property_intro_content: `Fortune Siddhivinayak is a mixed-use project in Chala, offering a blend of residential and commercial opportunities at an affordable price point.
+
+What you need to know:
+• Smart Design: Vastu-compliant units focusing on natural light.
+• Local Access: Walking distance to Mamta Hospital and major supermarkets.
+• Future Value: Located in the fastest-growing residential pocket of Vapi/Valsad.`,
         faq: [],
         project_image: [
           "../../assets/projects/fortune_siddhivinayak/fortune_siddhivinayak_2.jpg"
@@ -216,7 +246,12 @@ export class ApiService {
         property_location: 'Daman & Diu',
         property_type: 'Commercial',
         brochure_download: "",
-        property_intro_content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+        property_intro_content: `Ganesh Arcade is a strategically positioned commercial development in Daman designed to capture booming tourism and local trade.
+
+What you need to know:
+• Tourist Location: Situated on the main transit route to the beaches.
+• Architecture: Modern open-plan layouts for easy customization.
+• Advantage: Daman’s tax-friendly environment makes this highly profitable.`,
         faq: [],
         project_image: [
           "../../assets/projects/ganesh_arcade/ganesh_arcade_images.jpg"
@@ -231,7 +266,12 @@ export class ApiService {
         property_location: 'Daman',
         property_type: 'Residential',
         brochure_download: "",
-        property_intro_content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+        property_intro_content: `A boutique residential retreat near Devka Beach, Fortune Skyes is designed for those seeking a vacation home or investment rental.
+
+What you need to know:
+• Coastal Living: Only 5 minutes from the Devka Beach promenade.
+• Privacy: Low-density project with fewer units per floor.
+• Investment: High potential for "Staycation" Airbnb-style rentals.`,
         faq: [],
         project_image: [
           "../../assets/projects/fortune_skyes/fortune_skyes_images.jpg"
@@ -246,7 +286,12 @@ export class ApiService {
         property_location: 'Daman',
         property_type: 'Commercial',
         brochure_download: "",
-        property_intro_content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+        property_intro_content: `Fortune DP Plaza is a large-scale commercial project in the Kachigam area, built to support the massive industrial electronics hub of Daman.
+
+What you need to know:
+• Scale: Features massive commercial frontage and high-speed elevators.
+• Convenience: Integrated with residential wings for a walk-to-work lifestyle.
+• Target: Ideal for corporate offices and industrial service providers.`,
         faq: [],
         project_image: [
           "../../assets/projects/fortune_dp_plaza/fortune_dp_plaza_1.jpg",
@@ -264,8 +309,12 @@ export class ApiService {
         property_location: 'Vapi',
         property_type: 'Residential',
         brochure_download: "",
-        property_intro_content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
-        faq: [],
+        property_intro_content: `A family-centric, ready-to-move housing society in Chala that focuses on community living and essential comforts.
+
+What you need to know:
+• Community: Already home to several families with a proven track record.
+• Utilities: Features 24-hour dedicated water storage and borewell facilities.
+• Value: One of the most competitively priced 2BHK options in the region.`,
         project_image: [
           "../../assets/projects/fortune_chandranagari/fortune_chandranagari_page_02.jpg",
           "../../assets/projects/fortune_chandranagari/fortune_chandranagari_page_03.jpg",
@@ -289,20 +338,30 @@ export class ApiService {
         property_location: 'Daman',
         property_type: 'Residential',
         brochure_download: "",
-        property_intro_content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+        property_intro_content: `Green Ville is an upscale residential development emphasizing luxury and eco-friendly design in the heart of Damanwada.
+
+What you need to know:
+• Luxury Specs: High-end flooring and designer bathroom fittings.
+• Environment: Located away from industrial noise for a fresher atmosphere.
+• Connectivity: Close to Moti Daman fort area and administrative offices.`,
         faq: [],
         project_image: []
       },
       {
         id: 13,
         name: 'Fortune Lake Home',
-        thumbnail_image: '../../assets/projects/fortune_lake_home/fortune_lake_home_hero.jpg',
-        hero_image: '../../assets/projects/fortune_lake_home/fortune_lake_home_thumbnail.jpg',
+        thumbnail_image: '../../assets/projects/fortune_lake_home/fortune_lake_home_thumbnail.jpg',
+        hero_image: '../../assets/projects/fortune_lake_home/fortune_lake_home_hero.jpg',
         property_developer: 'Fortune Group',
         property_location: 'Umargaon Valsad',
         property_type: 'Residential',
         brochure_download: "",
-        property_intro_content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+        property_intro_content: `Fortune Lake Homes is a signature development featuring residential row houses and commercial shops near the Aakra Maruti Temple.
+
+What you need to know:
+• Spiritual Proximity: Peaceful lakeside environment near local temples.
+• Layout: Spacious row houses offering a "bungalow feel."
+• Commute: Easy access to Umargaon Railway Station.`,
         faq: [],
         project_image: [
           "../../assets/projects/fortune_lake_home/fortune_lake_home_1.jpg",
@@ -318,7 +377,12 @@ export class ApiService {
         property_location: 'Vapi',
         property_type: 'Residential',
         brochure_download: "",
-        property_intro_content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+        property_intro_content: `Sungate Infra Bungalows offers independent luxury with spacious layouts and premium teak-wood finishes in Chala.
+
+What you need to know:
+• Private Space: Each unit has private parking and a front garden sit-out.
+• Quality: Built with earthquake-resistant RCC structures.
+• Elite Zone: Nestled in the most sought-after residential pocket of Vapi.`,
         faq: [],
         project_image: []
       },
@@ -331,7 +395,12 @@ export class ApiService {
         property_location: 'Vapi',
         property_type: 'Residential',
         brochure_download: "",
-        property_intro_content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+        property_intro_content: `Sungate Apartments Phase 1 offers modern units known for their strong construction quality and strategic location in Chala.
+
+What you need to know:
+• Reliability: Active resident welfare association and 24/7 security.
+• Connectivity: Directly connected to the Vapi-Daman main road.
+• Proximity: Within 2km of major pharmacies and emergency hospitals.`,
         faq: [],
         project_image: [
           "../../assets/projects/sungate_apartments/sungate_apartments_1.jpg",
@@ -350,7 +419,12 @@ export class ApiService {
         property_location: 'Borivali',
         property_type: 'Residential',
         brochure_download: "",
-        property_intro_content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+        property_intro_content: `Ruby is a 22-storey high-rise in Gorai, Borivali West, offering a premium urban lifestyle with a "Clubhouse in the Sky."
+
+What you need to know:
+• Rooftop: Features a meditation deck, yoga zone, and stargazing point.
+• View: Higher floors offer panoramic views of the Gorai creek.
+• Transport: 5 mins from the New Metro Line and Borivali Station.`,
         faq: [],
         project_image: [
           '../../assets/projects/ruby/ruby_brochure_page_02.jpg',
@@ -372,7 +446,12 @@ export class ApiService {
         property_developer: 'Sigma',
         property_location: 'Charkop',
         property_type: 'Residential',
-        property_intro_content: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.`,
+        property_intro_content: `Sigma Amber is a smart-living project in Charkop, Kandivali, one of Mumbai's most systematically planned sectors.
+
+What you need to know:
+• Efficiency: Intelligent 1 & 2 BHK homes maximizing every square inch.
+• Security: Advanced 3-tier security system with video door phones.
+• Neighborhood: Surrounded by established gardens and the Charkop market.`,
         brochure_download: "",
         faq: [],
         project_image: [
