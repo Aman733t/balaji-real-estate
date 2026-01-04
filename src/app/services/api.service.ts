@@ -9,14 +9,14 @@ import { Subject, tap } from 'rxjs';
 export class ApiService {
   public headers: HttpHeaders = new HttpHeaders()
   // public baseUrl: string = 'https://salesfactory.in/track/';
-  public baseUrl:string = 'http://localhost:9002/track/'
+  public baseUrl: string = 'http://localhost:9002/track/'
   private _refreshNeeded = new Subject<void>();
   private biz_id = '';
-  
-  constructor(private http: HttpClient) { 
-   this.http.get('assets/projects.json').subscribe((data:any) => {
+
+  constructor(private http: HttpClient) {
+    this.http.get('assets/projects.json').subscribe((data: any) => {
       this.biz_id = data['business']
-    }); 
+    });
   }
 
   refreshNeeded() {
@@ -528,10 +528,10 @@ What you need to know:
         },
         clients_associations: [
           "IPCA Company",
-          "Fairpen, Rajson Pen",
+          "Flair Pen, Rajson Pen",
           "Reylite Switches, Parcos Switches",
           "Amron Switches, Music Centre",
-          "Rajprabha (Vasai), Nawane Construction (Vasai)",
+          "Rajprabha (Vasai), Nawany Construction (Vasai)",
           "Channel Partner: Auris Serenity, Oberoi Realty, Danube (Dubai)"
         ]
       },
@@ -563,10 +563,10 @@ What you need to know:
         },
         clients_associations: [
           "IPCA Company",
-          "Rana & Sons, Fairpen, Rajson Pen",
+          "Rana & Sons, Falir Pen, Rajson Pen",
           "Reylite Switches, Parcos Switches",
           "Amron Switches, Music Centre",
-          "Rajprabha (Vasai), Nawane Construction (Vasai)",
+          "Rajprabha (Vasai), Nawany Construction (Vasai)",
           "Channel Partner: Auris Serenity, Oberoi Realty, Danube"
         ]
       }
