@@ -71,9 +71,9 @@
                 <input type="email" id="email" name="email" placeholder="Your email.." required
                     [(ngModel)]="info.customer_email">
 
-                <!-- <label>Mobile Number</label>
-                <input type="number" id="number" name="number" placeholder="Your Mobile Number.." required [(ngModel)]="info.customer_mobile_number"> -->
-
+                <label>Mobile Number</label>
+                <input type="number" id="number" name="number" placeholder="Your Mobile Number.." required [(ngModel)]="info.customer_mobile_number">
+                
                 <label for="subject">Subject</label>
                 <input type="text" id="subject" name="subject" placeholder="Subject.." required
                     [(ngModel)]="info.inquiry_subject">
@@ -82,7 +82,7 @@
                 <textarea name="message" placeholder="Write something.." style="height:200px" required
                     [(ngModel)]="info.inquiry_message"></textarea>
 
-                <input type="submit" value="Submit >">
+                <input type="submit" value="Submit >" (click)="sendInquiryInfo()">
 
             </form>
         </div>
