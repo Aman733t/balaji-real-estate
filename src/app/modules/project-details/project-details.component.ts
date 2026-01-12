@@ -11,25 +11,25 @@ import { ApiService } from '../../services/api.service';
   selector: 'app-project-details',
   standalone: true,
   imports: [PackagesModule, HeaderComponent, FooterComponent, ScrolldownComponent],
-  providers:[ApiService],
+  providers: [ApiService],
   templateUrl: './project-details.component.html',
   styleUrl: './project-details.component.scss'
 })
 export class ProjectDetailsComponent {
   public productId: string | null = null;
   public info: any = {};
-  public projectInfo:any = {};
+  public projectInfo: any = {};
   private routeSub: Subscription | undefined;
 
-  constructor(private router: Router, private route: ActivatedRoute, private api:ApiService) { }
+  constructor(private router: Router, private route: ActivatedRoute, private api: ApiService) { }
 
   ngOnInit() {
     this.topView();
     this.routeSub = this.route.params.subscribe((params: any) => {
-      if(params['id']){
+      if (params['id']) {
         let projectArr = this.api.getProjectMetaData();
-        projectArr.forEach((project:any)=>{
-          if(project['id'] == params['id']){
+        projectArr.forEach((project: any) => {
+          if (project['id'] == params['id']) {
             this.projectInfo = project
           }
         })
@@ -37,7 +37,7 @@ export class ProjectDetailsComponent {
     });
   }
 
-  topView(){
+  topView() {
     window.scrollTo({
       top: 0,
       left: 0,
@@ -78,13 +78,29 @@ export class ProjectDetailsComponent {
     });
   }
 
-    sendInquiryInfo() {
-    if(Object.keys(this.info).length > 0){
-      this.api.trackInquiry(this.info).subscribe((response:any)=>{
-        if(response['code'] == 1){
+  sendInquiryInfo() {
+    if (Object.keys(this.info).length > 0) {
+      this.api.trackInquiry(this.info).subscribe((response: any) => {
+        if (response['code'] == 1) {
           this.info = {}
         }
       })
+    }
+  }
+
+  downloadPdf() {
+    const fileUrl = this.projectInfo['brochure_download'];
+    if(fileUrl){
+      fetch(fileUrl)
+        .then(response => response.blob())
+        .then(blob => {
+          const url = window.URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = this.projectInfo['name']+'.pdf';
+          a.click();
+          window.URL.revokeObjectURL(url);
+        });
     }
   }
 

@@ -43,7 +43,7 @@ export class ApiService {
         property_developer: 'Danube Properties',
         property_location: 'Dubai',
         property_type: 'Commercial',
-        brochure_download: "",
+        brochure_download: "../../assets/brochure/sharukhz.pdf",
         property_intro_content: `Rising on the iconic Sheikh Zayed Road, this premium 55-storey office tower offers unmatched visibility and seamless access in the heart of Dubai.
         Inspired by the self-made journey of Shahrukh Khan, Shahrukhz is a tribute to those who script their own destiny — a place for business leaders, founders and visionaries to build more than companies, to build empires.
         With world-class amenities curated for productivity, prestige and wellbeing…every detail elevates the way you work.`,
@@ -111,7 +111,7 @@ export class ApiService {
         property_developer: 'Danube Properties',
         property_location: 'Dubai',
         property_type: 'Residential',
-        brochure_download: "",
+        brochure_download: "../../assets/brochure/breeze.pdf",
         property_intro_content: `Breez by Danube is a premium 60-floor waterfront residential tower in Dubai Maritime City. Inspired by seaside serenity and elevated living, Breez offers Fully Furnished Oceanfront Homes with over 40+ resort-style amenities for a lifestyle that flows as effortlessly as its name.
 
 More than just a residence, Breez is your invitation to experience a life where the city’s pulse meets the calm of the sea.
@@ -175,7 +175,7 @@ WHY DUBAI MARITIME CITY?
         property_developer: 'Fortune Group',
         property_location: 'Vapi',
         property_type: 'Commercial',
-        brochure_download: "",
+        brochure_download: "../../assets/brochure/fortune_one.pdf",
         property_intro_content: `Fortune One is a premier commercial landmark designed to redefine the business landscape of Vapi. Strategically located near the V.I.A. road, it offers high-visibility retail spaces and modern offices.
 
 What you need to know:
@@ -197,7 +197,7 @@ What you need to know:
         property_developer: 'Fortune Group',
         property_location: 'Vapi',
         property_type: 'Commercial',
-        brochure_download: "",
+        brochure_download: "../../assets/brochure/fortune_landmark.pdf",
         property_intro_content: `Fortune Landmark stands as a completed commercial hub in the GIDC Phase 2 area of Vapi. It provides ready-to-move office and retail units for immediate business operations.
 
 What you need to know:
@@ -218,7 +218,7 @@ What you need to know:
         property_developer: 'Fortune Group',
         property_location: 'Valsad',
         property_type: 'Residential',
-        brochure_download: "",
+        brochure_download: "../../assets/brochure/fortune_nest.pdf",
         property_intro_content: `Fortune Nest offers a serene residential experience in Valsad, focusing on modern row houses and apartments with a gated community feel.
 
 What you need to know:
@@ -241,7 +241,7 @@ What you need to know:
         property_developer: 'Fortune Group',
         property_location: 'Valsad',
         property_type: 'Commercial',
-        brochure_download: "",
+        brochure_download: "../../assets/brochure/fortune_siddhivinayak.pdf",
         property_intro_content: `Fortune Siddhivinayak is a mixed-use project in Chala, offering a blend of residential and commercial opportunities at an affordable price point.
 
 What you need to know:
@@ -261,7 +261,7 @@ What you need to know:
         property_developer: 'Fortune Group',
         property_location: 'Daman & Diu',
         property_type: 'Commercial',
-        brochure_download: "",
+        brochure_download: "../../assets/brochure/ganesh_arcade.pdf",
         property_intro_content: `Ganesh Arcade is a strategically positioned commercial development in Daman designed to capture booming tourism and local trade.
 
 What you need to know:
@@ -281,7 +281,7 @@ What you need to know:
         property_developer: 'Fortune Group',
         property_location: 'Daman',
         property_type: 'Residential',
-        brochure_download: "",
+        brochure_download: "../../assets/brochure/fortune_skyes.pdf",
         property_intro_content: `A boutique residential retreat near Devka Beach, Fortune Skyes is designed for those seeking a vacation home or investment rental.
 
 What you need to know:
@@ -301,7 +301,7 @@ What you need to know:
         property_developer: 'Fortune Group',
         property_location: 'Daman',
         property_type: 'Commercial',
-        brochure_download: "",
+        brochure_download: "../../assets/brochure/fortune_dp_plaza.pdf",
         property_intro_content: `Fortune DP Plaza is a large-scale commercial project in the Kachigam area, built to support the massive industrial electronics hub of Daman.
 
 What you need to know:
@@ -353,7 +353,7 @@ What you need to know:
         property_developer: 'Fortune Group',
         property_location: 'Daman',
         property_type: 'Residential',
-        brochure_download: "",
+        brochure_download: "../../assets/brochure/green_ville.pdf",
         property_intro_content: `Green Ville is an upscale residential development emphasizing luxury and eco-friendly design in the heart of Damanwada.
 
 What you need to know:
@@ -371,7 +371,7 @@ What you need to know:
         property_developer: 'Fortune Group',
         property_location: 'Umargaon Valsad',
         property_type: 'Residential',
-        brochure_download: "",
+        brochure_download: "../../assets/brochure/fortune_lake_home.pdf",
         property_intro_content: `Fortune Lake Homes is a signature development featuring residential row houses and commercial shops near the Aakra Maruti Temple.
 
 What you need to know:
@@ -392,7 +392,7 @@ What you need to know:
         property_developer: 'Fortune Group',
         property_location: 'Vapi',
         property_type: 'Residential',
-        brochure_download: "",
+        brochure_download: "../../assets/brochure/sungate_bungalows.pdf",
         property_intro_content: `Sungate Infra Bungalows offers independent luxury with spacious layouts and premium teak-wood finishes in Chala.
 
 What you need to know:
@@ -410,7 +410,7 @@ What you need to know:
         property_developer: 'Fortune Group',
         property_location: 'Vapi',
         property_type: 'Residential',
-        brochure_download: "",
+        brochure_download: "../../assets/brochure/sungate_apartments.pdf",
         property_intro_content: `Sungate Apartments Phase 1 offers modern units known for their strong construction quality and strategic location in Chala.
 
 What you need to know:
@@ -434,7 +434,7 @@ What you need to know:
         property_developer: 'Shrisai Akar Civilinfra',
         property_location: 'Borivali',
         property_type: 'Residential',
-        brochure_download: "",
+        brochure_download: "../../assets/brochure/ruby.pdf",
         property_intro_content: `Ruby is a 22-storey high-rise in Gorai, Borivali West, offering a premium urban lifestyle with a "Clubhouse in the Sky."
 
 What you need to know:
