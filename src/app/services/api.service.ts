@@ -184,16 +184,20 @@ What you need to know:
 • Best For: Investors looking for high rental yields from corporate tenants.`,
         faq: [],
         project_image: [
-          "../../assets/projects/fortune_one/fortune_one_1.png",
-          "../../assets/projects/fortune_one/fortune_one_2.jpg",
-          "../../assets/projects/fortune_one/fortune_one_3.JPG",
+          "../../assets/projects/fortune_one/fortune_one_Page_1.jpg",
+          "../../assets/projects/fortune_one/fortune_one_Page_2.jpg",
+          "../../assets/projects/fortune_one/fortune_one_Page_3.jpg",
+          "../../assets/projects/fortune_one/fortune_one_Page_4.jpg",
+          "../../assets/projects/fortune_one/fortune_one_Page_5.jpg",
+          "../../assets/projects/fortune_one/fortune_one_Page_6.jpg",
+          "../../assets/projects/fortune_one/fortune_one_Page_7.jpg",
         ]
       },
       {
         id: 5,
         name: 'Fortune Landmark',
         thumbnail_image: '../../assets/projects/fortune_landmark/fortune_landmark_thumbnail.jpg',
-        hero_image: '../../assets/projects/fortune_landmark/fortune_landmark_thumbnail.jpg',
+        hero_image: '../../assets/projects/fortune_landmark/fortune_landmark_hero.jpg',
         property_developer: 'Fortune Group',
         property_location: 'Vapi',
         property_type: 'Commercial',
@@ -206,8 +210,19 @@ What you need to know:
 • Facilities: Ample basement parking and 24/7 security management.`,
         faq: [],
         project_image: [
-          "../../assets/projects/fortune_landmark/fortune_landmark_1.webp",
-          "../../assets/projects/fortune_landmark/fortune_landmark_2.jpg",
+          "../../assets/projects/fortune_landmark/fortune_landmark_Page_02.jpg",
+          "../../assets/projects/fortune_landmark/fortune_landmark_Page_03.jpg",
+          "../../assets/projects/fortune_landmark/fortune_landmark_Page_04.jpg",
+          "../../assets/projects/fortune_landmark/fortune_landmark_Page_05.jpg",
+          "../../assets/projects/fortune_landmark/fortune_landmark_Page_06.jpg",
+          "../../assets/projects/fortune_landmark/fortune_landmark_Page_07.jpg",
+          "../../assets/projects/fortune_landmark/fortune_landmark_Page_08.jpg",
+          "../../assets/projects/fortune_landmark/fortune_landmark_Page_09.jpg",
+          "../../assets/projects/fortune_landmark/fortune_landmark_Page_10.jpg",
+          "../../assets/projects/fortune_landmark/fortune_landmark_Page_11.jpg",
+          "../../assets/projects/fortune_landmark/fortune_landmark_Page_12.jpg",
+          "../../assets/projects/fortune_landmark/fortune_landmark_Page_13.jpg",
+          "../../assets/projects/fortune_landmark/fortune_landmark_Page_14.jpg",
         ]
       },
       {
@@ -227,10 +242,17 @@ What you need to know:
 • Proximity: Located near top-tier schools like Vallabh Ashram.`,
         faq: [],
         project_image: [
-          "../../assets/projects/fortune_nest/fortune_nest_9.jpg",
-          "../../assets/projects/fortune_nest/fortune_nest_12.jpg",
-          "../../assets/projects/fortune_nest/fortune_nest_15.jpg",
-          "../../assets/projects/fortune_nest/fortune_nest_16.jpg"
+          "../../assets/projects/fortune_nest/fortune_nest_Page_02.jpg",
+          "../../assets/projects/fortune_nest/fortune_nest_Page_03.jpg",
+          "../../assets/projects/fortune_nest/fortune_nest_Page_04.jpg",
+          "../../assets/projects/fortune_nest/fortune_nest_Page_05.jpg",
+          "../../assets/projects/fortune_nest/fortune_nest_Page_06.jpg",
+          "../../assets/projects/fortune_nest/fortune_nest_Page_07.jpg",
+          "../../assets/projects/fortune_nest/fortune_nest_Page_08.jpg",
+          "../../assets/projects/fortune_nest/fortune_nest_Page_09.jpg",
+          "../../assets/projects/fortune_nest/fortune_nest_Page_10.jpg",
+          "../../assets/projects/fortune_nest/fortune_nest_Page_11.jpg",
+          "../../assets/projects/fortune_nest/fortune_nest_Page_12.jpg",
         ]
       },
       {
@@ -250,14 +272,23 @@ What you need to know:
 • Future Value: Located in the fastest-growing residential pocket of Vapi/Valsad.`,
         faq: [],
         project_image: [
-          "../../assets/projects/fortune_siddhivinayak/fortune_siddhivinayak_2.jpg"
+          "../../assets/projects/fortune_siddhivinayak/fortune_siddhivinayak_Page_02.jpg",
+          "../../assets/projects/fortune_siddhivinayak/fortune_siddhivinayak_Page_03.jpg",
+          "../../assets/projects/fortune_siddhivinayak/fortune_siddhivinayak_Page_04.jpg",
+          "../../assets/projects/fortune_siddhivinayak/fortune_siddhivinayak_Page_05.jpg",
+          "../../assets/projects/fortune_siddhivinayak/fortune_siddhivinayak_Page_06.jpg",
+          "../../assets/projects/fortune_siddhivinayak/fortune_siddhivinayak_Page_07.jpg",
+          "../../assets/projects/fortune_siddhivinayak/fortune_siddhivinayak_Page_08.jpg",
+          "../../assets/projects/fortune_siddhivinayak/fortune_siddhivinayak_Page_09.jpg",
+          "../../assets/projects/fortune_siddhivinayak/fortune_siddhivinayak_Page_10.jpg",
+          "../../assets/projects/fortune_siddhivinayak/fortune_siddhivinayak_Page_11.jpg",
         ]
       },
       {
         id: 8,
         name: 'Ganesh Arcade',
         thumbnail_image: '../../assets/projects/ganesh_arcade/ganesh_arcade_thumbnail.jpg',
-        hero_image: '../../assets/projects/ganesh_arcade/ganesh_arcade_thumbnail.jpg',
+        hero_image: '../../assets/projects/ganesh_arcade/ganesh_arcade_hero.jpg',
         property_developer: 'Fortune Group',
         property_location: 'Daman & Diu',
         property_type: 'Commercial',
@@ -270,14 +301,19 @@ What you need to know:
 • Advantage: Daman’s tax-friendly environment makes this highly profitable.`,
         faq: [],
         project_image: [
-          "../../assets/projects/ganesh_arcade/ganesh_arcade_images.jpg"
+          "../../assets/projects/ganesh_arcade/ganesh_arcade_Page_1.jpg",
+          "../../assets/projects/ganesh_arcade/ganesh_arcade_Page_2.jpg",
+          "../../assets/projects/ganesh_arcade/ganesh_arcade_Page_3.jpg",
+          "../../assets/projects/ganesh_arcade/ganesh_arcade_Page_4.jpg",
+          "../../assets/projects/ganesh_arcade/ganesh_arcade_Page_5.jpg",
+          // "../../assets/projects/ganesh_arcade/ganesh_arcade_Page_6.jpg",
         ]
       },
       {
         id: 9,
         name: 'Fortune Skyes',
         thumbnail_image: '../../assets/projects/fortune_skyes/fortune_skyes_thumbnail.jpg',
-        hero_image: '../../assets/projects/fortune_skyes/fortune_skyes_thumbnail.jpg',
+        hero_image: '../../assets/projects/fortune_skyes/fortune_skyes_hero.jpg',
         property_developer: 'Fortune Group',
         property_location: 'Daman',
         property_type: 'Residential',
@@ -290,7 +326,17 @@ What you need to know:
 • Investment: High potential for "Staycation" Airbnb-style rentals.`,
         faq: [],
         project_image: [
-          "../../assets/projects/fortune_skyes/fortune_skyes_images.jpg"
+          "../../assets/projects/fortune_skyes/fortune_skyes_Page_02.jpg",
+          "../../assets/projects/fortune_skyes/fortune_skyes_Page_03.jpg",
+          "../../assets/projects/fortune_skyes/fortune_skyes_Page_04.jpg",
+          "../../assets/projects/fortune_skyes/fortune_skyes_Page_05.jpg",
+          "../../assets/projects/fortune_skyes/fortune_skyes_Page_06.jpg",
+          "../../assets/projects/fortune_skyes/fortune_skyes_Page_07.jpg",
+          "../../assets/projects/fortune_skyes/fortune_skyes_Page_08.jpg",
+          "../../assets/projects/fortune_skyes/fortune_skyes_Page_09.jpg",
+          "../../assets/projects/fortune_skyes/fortune_skyes_Page_10.jpg",
+          "../../assets/projects/fortune_skyes/fortune_skyes_Page_11.jpg",
+          "../../assets/projects/fortune_skyes/fortune_skyes_Page_12.jpg",
         ]
       },
       {
@@ -310,10 +356,12 @@ What you need to know:
 • Target: Ideal for corporate offices and industrial service providers.`,
         faq: [],
         project_image: [
-          "../../assets/projects/fortune_dp_plaza/fortune_dp_plaza_1.jpg",
-          "../../assets/projects/fortune_dp_plaza/fortune_dp_plaza_2.jpg",
-          "../../assets/projects/fortune_dp_plaza/fortune_dp_plaza_3.jpg",
-          "../../assets/projects/fortune_dp_plaza/fortune_dp_plaza_4.jpg",
+          "../../assets/projects/fortune_dp_plaza/fortune_dp_plaza_Page_1.jpg",
+          "../../assets/projects/fortune_dp_plaza/fortune_dp_plaza_Page_2.jpg",
+          "../../assets/projects/fortune_dp_plaza/fortune_dp_plaza_Page_3.jpg",
+          "../../assets/projects/fortune_dp_plaza/fortune_dp_plaza_Page_4.jpg",
+          "../../assets/projects/fortune_dp_plaza/fortune_dp_plaza_Page_5.jpg",
+          "../../assets/projects/fortune_dp_plaza/fortune_dp_plaza_Page_6.jpg",
         ]
       },
       {
@@ -349,7 +397,7 @@ What you need to know:
         id: 12,
         name: 'Green Ville',
         thumbnail_image: '../../assets/projects/green_ville/green_ville_thumbnail.jpg',
-        hero_image: '../../assets/projects/green_ville/green_ville_thumbnail.jpg',
+        hero_image: '../../assets/projects/green_ville/green_ville_hero.jpg',
         property_developer: 'Fortune Group',
         property_location: 'Daman',
         property_type: 'Residential',
@@ -361,7 +409,23 @@ What you need to know:
 • Environment: Located away from industrial noise for a fresher atmosphere.
 • Connectivity: Close to Moti Daman fort area and administrative offices.`,
         faq: [],
-        project_image: []
+        project_image: [
+          "../../assets/projects/green_ville/green_ville_Page_02.jpg",
+          "../../assets/projects/green_ville/green_ville_Page_03.jpg",
+          "../../assets/projects/green_ville/green_ville_Page_04.jpg",
+          "../../assets/projects/green_ville/green_ville_Page_05.jpg",
+          "../../assets/projects/green_ville/green_ville_Page_06.jpg",
+          "../../assets/projects/green_ville/green_ville_Page_07.jpg",
+          "../../assets/projects/green_ville/green_ville_Page_08.jpg",
+          "../../assets/projects/green_ville/green_ville_Page_09.jpg",
+          "../../assets/projects/green_ville/green_ville_Page_10.jpg",
+          "../../assets/projects/green_ville/green_ville_Page_11.jpg",
+          "../../assets/projects/green_ville/green_ville_Page_12.jpg",
+          "../../assets/projects/green_ville/green_ville_Page_13.jpg",
+          "../../assets/projects/green_ville/green_ville_Page_14.jpg",
+          "../../assets/projects/green_ville/green_ville_Page_15.jpg",
+          "../../assets/projects/green_ville/green_ville_Page_16.jpg",
+        ]
       },
       {
         id: 13,
@@ -380,15 +444,24 @@ What you need to know:
 • Commute: Easy access to Umargaon Railway Station.`,
         faq: [],
         project_image: [
-          "../../assets/projects/fortune_lake_home/fortune_lake_home_1.jpg",
-          "../../assets/projects/fortune_lake_home/fortune_lake_home_2.jpg"
+          "../../assets/projects/fortune_lake_home/fortune_lake_home_Page_02.jpg",
+          "../../assets/projects/fortune_lake_home/fortune_lake_home_Page_03.jpg",
+          "../../assets/projects/fortune_lake_home/fortune_lake_home_Page_04.jpg",
+          "../../assets/projects/fortune_lake_home/fortune_lake_home_Page_05.jpg",
+          "../../assets/projects/fortune_lake_home/fortune_lake_home_Page_06.jpg",
+          "../../assets/projects/fortune_lake_home/fortune_lake_home_Page_07.jpg",
+          "../../assets/projects/fortune_lake_home/fortune_lake_home_Page_08.jpg",
+          "../../assets/projects/fortune_lake_home/fortune_lake_home_Page_09.jpg",
+          "../../assets/projects/fortune_lake_home/fortune_lake_home_Page_10.jpg",
+          "../../assets/projects/fortune_lake_home/fortune_lake_home_Page_11.jpg",
+          "../../assets/projects/fortune_lake_home/fortune_lake_home_Page_12.jpg",
         ]
       },
       {
         id: 14,
         name: 'Sungate Infra Bunglows',
         thumbnail_image: '../../assets/projects/sungate_infra_bunglows/sungate_infra_bunglows_thumbnail.jpg',
-        hero_image: '../../assets/projects/sungate_infra_bunglows/sungate_infra_bunglows_thumbnail.jpg',
+        hero_image: '../../assets/projects/sungate_infra_bunglows/sungate_infra_bunglows_hero.jpg',
         property_developer: 'Fortune Group',
         property_location: 'Vapi',
         property_type: 'Residential',
@@ -400,7 +473,33 @@ What you need to know:
 • Quality: Built with earthquake-resistant RCC structures.
 • Elite Zone: Nestled in the most sought-after residential pocket of Vapi.`,
         faq: [],
-        project_image: []
+        project_image: [
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_01.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_02.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_03.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_04.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_05.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_06.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_07.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_08.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_09.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_10.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_11.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_12.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_13.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_14.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_15.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_16.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_17.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_18.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_19.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_20.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_21.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_22.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_23.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_24.jpg",
+          "../../assets/projects/sungate_infra_bunglows/sungate_bungalows_Page_25.jpg",
+        ]
       },
       {
         id: 15,
@@ -419,11 +518,19 @@ What you need to know:
 • Proximity: Within 2km of major pharmacies and emergency hospitals.`,
         faq: [],
         project_image: [
-          "../../assets/projects/sungate_apartments/sungate_apartments_1.jpg",
-          "../../assets/projects/sungate_apartments/sungate_apartments_2.jpg",
-          "../../assets/projects/sungate_apartments/sungate_apartments_3.jpg",
-          "../../assets/projects/sungate_apartments/sungate_apartments_4.jpg",
-          "../../assets/projects/sungate_apartments/sungate_apartments_5.jpg"
+          "../../assets/projects/sungate_apartments/sungate_apartments_Page_01.jpg",
+          "../../assets/projects/sungate_apartments/sungate_apartments_Page_02.jpg",
+          "../../assets/projects/sungate_apartments/sungate_apartments_Page_03.jpg",
+          "../../assets/projects/sungate_apartments/sungate_apartments_Page_04.jpg",
+          "../../assets/projects/sungate_apartments/sungate_apartments_Page_05.jpg",
+          "../../assets/projects/sungate_apartments/sungate_apartments_Page_06.jpg",
+          "../../assets/projects/sungate_apartments/sungate_apartments_Page_07.jpg",
+          "../../assets/projects/sungate_apartments/sungate_apartments_Page_08.jpg",
+          "../../assets/projects/sungate_apartments/sungate_apartments_Page_09.jpg",
+          "../../assets/projects/sungate_apartments/sungate_apartments_Page_10.jpg",
+          "../../assets/projects/sungate_apartments/sungate_apartments_Page_11.jpg",
+          "../../assets/projects/sungate_apartments/sungate_apartments_Page_12.jpg",
+          "../../assets/projects/sungate_apartments/sungate_apartments_Page_13.jpg",
         ]
       },
       {
